@@ -152,5 +152,51 @@
     "title": "Aquesta pàgina no existeix.",
     "text": "Pot ser que l'adreça hagi canviat o que l'enllaç sigui incomplet.",
     "back": "Torna a l'inici"
+  },
+  "projects": {
+    "index": {
+      "title": "Projectes de reforma a la Cerdanya",
+      "intro": "Els set projectes d'aquesta pàgina són conceptuals: mostren com treballem mentre documentem les primeres obres lliurades. Les imatges estan generades amb IA.",
+      "metaTitle": "Projectes de reformes a la Cerdanya | Cerdanya Reformes",
+      "metaDescription": "Xalets, cases de pedra, bordes i àtics reformats a la Cerdanya: estances, materials i l'abans i el després de cada projecte."
+    },
+    "filter": {
+      "label": "Tipus d'habitatge",
+      "all": "Tots"
+    },
+    "types": {
+      "chalet": "Xalets",
+      "casa-de-piedra": "Cases de pedra",
+      "borda": "Bordes",
+      "atico": "Àtics"
+    },
+    "scopes": {
+      "reforma-integral": "Reforma integral",
+      "rehabilitacion": "Rehabilitació",
+      "interiorismo": "Interiorisme",
+      "cocina-banos": "Cuina i banys",
+      "wellness": "Wellness",
+      "eficiencia": "Eficiència energètica",
+      "llave-en-mano": "Clau en mà",
+      "gestion-alquiler": "Gestió de lloguer"
+    },
+    "facts": {
+      "town": "Municipi",
+      "surface": "Superfície",
+      "duration": "Durada",
+      "scope": "Abast"
+    },
+    "months": "{count} mesos",
+    "back": "Tots els projectes",
+    "materials": "Materials",
+    "beforeAfter": {
+      "title": "Abans i després",
+      "before": "Abans",
+      "after": "Després",
+      "slider": "Comparar l'abans i el després"
+    },
+    "next": "Projecte següent",
+    "conceptNote": "Projecte conceptual. La casa no existeix i les imatges estan generades amb IA: mostra com treballem.",
+    "metaTitle": "{title}, {town} | Cerdanya Reformes"
   }
 }

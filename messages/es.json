@@ -152,5 +152,51 @@
     "title": "Esta página no existe.",
     "text": "Puede que la dirección haya cambiado o que el enlace esté incompleto.",
     "back": "Volver al inicio"
+  },
+  "projects": {
+    "index": {
+      "title": "Proyectos de reforma en la Cerdanya",
+      "intro": "Los siete proyectos de esta página son conceptuales: muestran cómo trabajamos mientras documentamos las primeras obras entregadas. Las imágenes están generadas con IA.",
+      "metaTitle": "Proyectos de reformas en la Cerdanya | Cerdanya Reformes",
+      "metaDescription": "Chalets, casas de piedra, bordas y áticos reformados en la Cerdanya: estancias, materiales y el antes y el después de cada proyecto."
+    },
+    "filter": {
+      "label": "Tipo de vivienda",
+      "all": "Todos"
+    },
+    "types": {
+      "chalet": "Chalets",
+      "casa-de-piedra": "Casas de piedra",
+      "borda": "Bordas",
+      "atico": "Áticos"
+    },
+    "scopes": {
+      "reforma-integral": "Reforma integral",
+      "rehabilitacion": "Rehabilitación",
+      "interiorismo": "Interiorismo",
+      "cocina-banos": "Cocina y baños",
+      "wellness": "Wellness",
+      "eficiencia": "Eficiencia energética",
+      "llave-en-mano": "Llave en mano",
+      "gestion-alquiler": "Gestión de alquiler"
+    },
+    "facts": {
+      "town": "Municipio",
+      "surface": "Superficie",
+      "duration": "Duración",
+      "scope": "Alcance"
+    },
+    "months": "{count} meses",
+    "back": "Todos los proyectos",
+    "materials": "Materiales",
+    "beforeAfter": {
+      "title": "Antes y después",
+      "before": "Antes",
+      "after": "Después",
+      "slider": "Comparar el antes y el después"
+    },
+    "next": "Siguiente proyecto",
+    "conceptNote": "Proyecto conceptual. La casa no existe y las imágenes están generadas con IA: muestra cómo trabajamos.",
+    "metaTitle": "{title}, {town} | Cerdanya Reformes"
   }
 }

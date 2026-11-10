@@ -16,7 +16,7 @@
   "home": {
     "keyword": "Rénovation et architecture d'intérieur en Cerdagne",
     "headline": "Le salon, le feu et le Cadí à la fenêtre.",
-    "intro": "Nous rénovons l'intérieur des chalets et des maisons en pierre : mur de granit apparent, mélèze, chêne et laine, avec du mobilier sur mesure. Nous nous occupons de tout, même si vous êtes à Toulouse ou à Paris.",
+    "intro": "Nous rénovons l'intérieur des chalets et des maisons en pierre : mur de granit apparent, mélèze, chêne et laine, avec du mobilier sur mesure. Nous nous occupons de tout, même si vous êtes à Toulouse ou à Paris.",
     "heroAlt": "Salon de la Casa Pairal Alp avec la cheminée en fer allumée, des canapés en lin et une baie vitrée sur la sierra del Cadí",
     "heroCaption": "Casa Pairal Alp, le salon avec le feu allumé",
     "why": {
@@ -32,7 +32,7 @@
         },
         "2": {
           "title": "Pour y vivre et pour la louer",
-          "text": "Si vous souhaitez ensuite la louer, Cerdanya Privé peut s'en charger. Nous concevons en y pensant : des matériaux qui durent et de la place pour ranger."
+          "text": "Si vous souhaitez ensuite la louer, Cerdanya Privé peut s'en charger. Nous concevons en y pensant : des matériaux qui durent et de la place pour ranger."
         }
       }
     },
@@ -119,11 +119,11 @@
   "image": {
     "aiCredit": "Image générée par IA",
     "concept": "Projet conceptuel",
-    "pending": "Image à venir : {file}"
+    "pending": "Image à venir : {file}"
   },
   "whatsapp": {
     "label": "Écrire sur WhatsApp",
-    "message": "Bonjour, je vous écris depuis la page « {title} » de Cerdanya Reformes. J'aimerais parler d'une rénovation."
+    "message": "Bonjour, je vous écris depuis la page « {title} » de Cerdanya Reformes. J'aimerais parler d'une rénovation."
   },
   "footer": {
     "statement": "Des maisons de montagne, faites pour durer.",
@@ -152,5 +152,51 @@
     "title": "Cette page n'existe pas.",
     "text": "L'adresse a peut-être changé, ou le lien est incomplet.",
     "back": "Retour à l'accueil"
+  },
+  "projects": {
+    "index": {
+      "title": "Projets de rénovation en Cerdagne",
+      "intro": "Les sept projets de cette page sont conceptuels : ils montrent notre façon de travailler pendant que nous documentons les premiers chantiers livrés. Les images sont générées par IA.",
+      "metaTitle": "Réalisations de rénovation en Cerdagne | Cerdanya Reformes",
+      "metaDescription": "Chalets, maisons en pierre, granges et attiques rénovés en Cerdagne : pièces, matériaux et l'avant-après de chaque projet."
+    },
+    "filter": {
+      "label": "Type de bien",
+      "all": "Tous"
+    },
+    "types": {
+      "chalet": "Chalets",
+      "casa-de-piedra": "Maisons en pierre",
+      "borda": "Granges",
+      "atico": "Attiques"
+    },
+    "scopes": {
+      "reforma-integral": "Rénovation complète",
+      "rehabilitacion": "Réhabilitation",
+      "interiorismo": "Architecture d'intérieur",
+      "cocina-banos": "Cuisine et salles de bains",
+      "wellness": "Bien-être",
+      "eficiencia": "Efficacité énergétique",
+      "llave-en-mano": "Clé en main",
+      "gestion-alquiler": "Gestion locative"
+    },
+    "facts": {
+      "town": "Commune",
+      "surface": "Surface",
+      "duration": "Durée",
+      "scope": "Périmètre"
+    },
+    "months": "{count} mois",
+    "back": "Tous les projets",
+    "materials": "Matériaux",
+    "beforeAfter": {
+      "title": "Avant et après",
+      "before": "Avant",
+      "after": "Après",
+      "slider": "Comparer l'avant et l'après"
+    },
+    "next": "Projet suivant",
+    "conceptNote": "Projet conceptuel. La maison n'existe pas et les images sont générées par IA : il montre notre façon de travailler.",
+    "metaTitle": "{title}, {town} | Cerdanya Reformes"
   }
 }
