@@ -1,0 +1,36 @@
+{
+  "meta": {
+    "title": "Reformes a la Cerdanya · Xalets i cases de pedra | Cerdanya Reformes",
+    "description": "Reforma integral i interiorisme de xalets i cases de muntanya a Puigcerdà, Alp, Llívia i la Cerdanya francesa. Disseny, obra i clau en mà per a propietaris a distància."
+  },
+  "brand": {
+    "endorsement": "by Cerdanya Privé",
+    "home": "Cerdanya Reformes, inici"
+  },
+  "lang": {
+    "label": "Idioma",
+    "es": "Español",
+    "ca": "Català",
+    "fr": "Français"
+  },
+  "home": {
+    "keyword": "Reformes i interiorisme a la Cerdanya",
+    "headline": "La sala, el foc i el Cadí a la finestra.",
+    "intro": "Reformem l'interior de xalets i cases de pedra: mur de granit a la vista, làrix, roure i llana, amb mobles fets a mida. Ens ocupem de tot, encara que sigueu a Barcelona.",
+    "heroAlt": "Sala de la Casa Pairal Alp amb la llar de foc de ferro encesa, sofàs de lli i un finestral a la serra del Cadí",
+    "heroCaption": "Casa Pairal Alp, la sala amb el foc encès"
+  },
+  "image": {
+    "aiCredit": "Imatge generada amb IA",
+    "concept": "Projecte conceptual",
+    "pending": "Imatge pendent: {file}"
+  },
+  "whatsapp": {
+    "label": "Escriure per WhatsApp",
+    "message": "Hola, us escric des de la pàgina «{title}» de Cerdanya Reformes. M'agradaria parlar d'una reforma."
+  },
+  "footer": {
+    "statement": "Cases de muntanya, fetes per durar.",
+    "parent": "Gestió de lloguer de vacances a la Cerdanya"
+  }
+}

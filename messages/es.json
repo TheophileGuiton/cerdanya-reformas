@@ -1,0 +1,36 @@
+{
+  "meta": {
+    "title": "Reformas en la Cerdanya · Chalets y casas de piedra | Cerdanya Reformes",
+    "description": "Reforma integral e interiorismo de chalets y casas de montaña en Puigcerdà, Alp, Llívia y la Cerdanya francesa. Diseño, obra y llave en mano para propietarios a distancia."
+  },
+  "brand": {
+    "endorsement": "by Cerdanya Privé",
+    "home": "Cerdanya Reformes, inicio"
+  },
+  "lang": {
+    "label": "Idioma",
+    "es": "Español",
+    "ca": "Català",
+    "fr": "Français"
+  },
+  "home": {
+    "keyword": "Reformas e interiorismo en la Cerdanya",
+    "headline": "La sala, el fuego y el Cadí en la ventana.",
+    "intro": "Reformamos el interior de chalets y casas de piedra: muro de granito a la vista, alerce, roble y lana, con muebles hechos a medida. Nos ocupamos de todo, aunque usted esté en Barcelona.",
+    "heroAlt": "Sala de Casa Pairal Alp con la chimenea de hierro encendida, sofás de lino y un ventanal a la sierra del Cadí",
+    "heroCaption": "Casa Pairal Alp, la sala con el fuego encendido"
+  },
+  "image": {
+    "aiCredit": "Imagen generada con IA",
+    "concept": "Proyecto conceptual",
+    "pending": "Imagen pendiente: {file}"
+  },
+  "whatsapp": {
+    "label": "Escribir por WhatsApp",
+    "message": "Hola, les escribo desde la página «{title}» de Cerdanya Reformes. Me gustaría hablar de una reforma."
+  },
+  "footer": {
+    "statement": "Casas de montaña, hechas para durar.",
+    "parent": "Gestión de alquiler vacacional en la Cerdanya"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "meta": {
+    "title": "Rénovation en Cerdagne · Chalets et maisons en pierre | Cerdanya Reformes",
+    "description": "Rénovation complète et architecture d'intérieur de chalets et de maisons de montagne à Font-Romeu, Bourg-Madame, Puigcerdà et Llívia. Conception, travaux et clé en main, à distance."
+  },
+  "brand": {
+    "endorsement": "by Cerdanya Privé",
+    "home": "Cerdanya Reformes, accueil"
+  },
+  "lang": {
+    "label": "Langue",
+    "es": "Español",
+    "ca": "Català",
+    "fr": "Français"
+  },
+  "home": {
+    "keyword": "Rénovation et architecture d'intérieur en Cerdagne",
+    "headline": "Le salon, le feu et le Cadí à la fenêtre.",
+    "intro": "Nous rénovons l'intérieur des chalets et des maisons en pierre : mur de granit apparent, mélèze, chêne et laine, avec du mobilier sur mesure. Nous nous occupons de tout, même si vous êtes à Toulouse ou à Paris.",
+    "heroAlt": "Salon de la Casa Pairal Alp avec la cheminée en fer allumée, des canapés en lin et une baie vitrée sur la sierra del Cadí",
+    "heroCaption": "Casa Pairal Alp, le salon avec le feu allumé"
+  },
+  "image": {
+    "aiCredit": "Image générée par IA",
+    "concept": "Projet conceptuel",
+    "pending": "Image à venir : {file}"
+  },
+  "whatsapp": {
+    "label": "Écrire sur WhatsApp",
+    "message": "Bonjour, je vous écris depuis la page « {title} » de Cerdanya Reformes. J'aimerais parler d'une rénovation."
+  },
+  "footer": {
+    "statement": "Des maisons de montagne, faites pour durer.",
+    "parent": "Gestion de locations de vacances en Cerdagne"
+  }
+}
