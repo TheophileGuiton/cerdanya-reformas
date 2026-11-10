@@ -146,7 +146,8 @@
     "method": "Mètode",
     "zones": "Zones",
     "journal": "Journal",
-    "contact": "Contacte"
+    "contact": "Contacte",
+    "about": "Nosaltres"
   },
   "notFound": {
     "title": "Aquesta pàgina no existeix.",
@@ -221,5 +222,78 @@
     "services": "El que fem",
     "otherTowns": "Altres zones",
     "metaTitle": "{title} | Cerdanya Reformes"
+  },
+  "method": {
+    "metaTitle": "Mètode: reforma a distància a la Cerdanya | Cerdanya Reformes",
+    "metaDescription": "Com gestionem una reforma a la Cerdanya per a propietaris a distància: sis passos, un sol interlocutor i un informe amb fotos cada setmana.",
+    "title": "De la primera visita a les claus",
+    "intro": "Una reforma a muntanya, portada de lluny, necessita ordre. Aquest és el nostre: sis passos, un sol interlocutor i un informe cada setmana.",
+    "steps": {
+      "0": {
+        "title": "Primera visita",
+        "text": "Veiem la casa amb vosaltres, o sense vosaltres si ens deixeu les claus. Amidem, fotografiem i escoltem com la feu servir i què hi falta."
+      },
+      "1": {
+        "title": "Proposta",
+        "text": "Us presentem una idea de distribució i materials, amb una estimació de cost i de termini per decidir si continuem."
+      },
+      "2": {
+        "title": "Projecte i pressupost",
+        "text": "Plànols, materials triats sobre mostres i un pressupost detallat per partides. Tramitem la llicència amb l'ajuntament."
+      },
+      "3": {
+        "title": "Obra",
+        "text": "Coordinem els oficis i els lliuraments. Cada setmana rebeu un informe amb fotos i el que ve després."
+      },
+      "4": {
+        "title": "Interior",
+        "text": "Fusteria, mobiliari, teixits i llum. Ho muntem i ho col·loquem tot abans del lliurament."
+      },
+      "5": {
+        "title": "Claus",
+        "text": "Lliurem la casa neta i a punt per entrar-hi. Si la voleu llogar quan no la feu servir, Cerdanya Privé la pot gestionar."
+      }
+    },
+    "remote": {
+      "title": "A distància",
+      "items": {
+        "0": {
+          "title": "Un sol interlocutor",
+          "text": "Una persona coneix la vostra obra i en respon."
+        },
+        "1": {
+          "title": "Informe setmanal",
+          "text": "Fotos, avenç i decisions pendents, cada setmana."
+        },
+        "2": {
+          "title": "Decisions sense viatjar",
+          "text": "Videotrucades i mostres enviades a casa. Pugeu quan voleu, no quan cal."
+        }
+      }
+    },
+    "pending": "Pendent abans del llançament: confirmar qui executa les obres (equip propi, constructors locals coordinats o arquitecte associat) per ajustar aquest text."
+  },
+  "about": {
+    "metaTitle": "Nosaltres | Cerdanya Reformes by Cerdanya Privé",
+    "metaDescription": "Cerdanya Reformes és la marca de reformes de Cerdanya Privé: reformem cases de muntanya a la Cerdanya amb el que hem après cuidant-les cada setmana.",
+    "title": "Nosaltres",
+    "intro": "Cerdanya Reformes és la marca de reformes de Cerdanya Privé, que gestiona cases de lloguer de vacances a la Cerdanya.",
+    "why": {
+      "title": "Per què reformem",
+      "text": "Cuidar cases cada setmana ensenya com envelleixen: per on entra la humitat, quina calefacció falla al febrer, quins materials aguanten. Reformem amb el que hem après mantenint-les."
+    },
+    "area": {
+      "title": "A banda i banda de la frontera",
+      "text": "Treballem a la Baixa Cerdanya i a l'Alta Cerdanya, de Bellver de Cerdanya a Font-romeu."
+    },
+    "parent": {
+      "title": "Cerdanya Privé",
+      "text": "Si després de la reforma voleu llogar la casa quan no la feu servir, Cerdanya Privé es pot ocupar de la gestió.",
+      "link": "Visitar cerdanyaprive.com"
+    },
+    "team": {
+      "title": "L'equip",
+      "pending": "Pendent abans del llançament: noms, funcions i retrats de l'equip."
+    }
   }
 }

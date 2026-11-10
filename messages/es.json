@@ -146,7 +146,8 @@
     "method": "Método",
     "zones": "Zonas",
     "journal": "Journal",
-    "contact": "Contacto"
+    "contact": "Contacto",
+    "about": "Sobre nosotros"
   },
   "notFound": {
     "title": "Esta página no existe.",
@@ -221,5 +222,78 @@
     "services": "Lo que hacemos",
     "otherTowns": "Otras zonas",
     "metaTitle": "{title} | Cerdanya Reformes"
+  },
+  "method": {
+    "metaTitle": "Método: reforma a distancia en la Cerdanya | Cerdanya Reformes",
+    "metaDescription": "Cómo gestionamos una reforma en la Cerdanya para propietarios a distancia: seis pasos, un solo interlocutor y un informe con fotos cada semana.",
+    "title": "De la primera visita a las llaves",
+    "intro": "Una reforma en la montaña, llevada desde lejos, necesita orden. Este es el nuestro: seis pasos, un solo interlocutor y un informe cada semana.",
+    "steps": {
+      "0": {
+        "title": "Primera visita",
+        "text": "Vemos la casa con usted, o sin usted si nos deja las llaves. Medimos, fotografiamos y escuchamos cómo la usa y qué le falta."
+      },
+      "1": {
+        "title": "Propuesta",
+        "text": "Le presentamos una idea de distribución y materiales, con una estimación de coste y de plazo para decidir si seguimos."
+      },
+      "2": {
+        "title": "Proyecto y presupuesto",
+        "text": "Planos, materiales elegidos sobre muestras y un presupuesto detallado por partidas. Tramitamos la licencia con el ayuntamiento."
+      },
+      "3": {
+        "title": "Obra",
+        "text": "Coordinamos los oficios y las entregas. Cada semana recibe un informe con fotos y lo que viene después."
+      },
+      "4": {
+        "title": "Interior",
+        "text": "Carpintería, mobiliario, tejidos y luz. Montamos y colocamos todo antes de la entrega."
+      },
+      "5": {
+        "title": "Llaves",
+        "text": "Entregamos la casa limpia y lista para entrar. Si quiere alquilarla cuando no la usa, Cerdanya Privé puede gestionarla."
+      }
+    },
+    "remote": {
+      "title": "A distancia",
+      "items": {
+        "0": {
+          "title": "Un solo interlocutor",
+          "text": "Una persona conoce su obra y responde por ella."
+        },
+        "1": {
+          "title": "Informe semanal",
+          "text": "Fotos, avance y decisiones pendientes, cada semana."
+        },
+        "2": {
+          "title": "Decisiones sin viajar",
+          "text": "Videollamadas y muestras enviadas a su casa. Sube cuando quiere, no cuando hace falta."
+        }
+      }
+    },
+    "pending": "Pendiente antes del lanzamiento: confirmar quién ejecuta las obras (equipo propio, constructores locales coordinados o arquitecto asociado) para ajustar este texto."
+  },
+  "about": {
+    "metaTitle": "Sobre nosotros | Cerdanya Reformes by Cerdanya Privé",
+    "metaDescription": "Cerdanya Reformes es la marca de reformas de Cerdanya Privé: reformamos casas de montaña en la Cerdanya con lo aprendido cuidándolas cada semana.",
+    "title": "Sobre nosotros",
+    "intro": "Cerdanya Reformes es la marca de reformas de Cerdanya Privé, que gestiona casas de alquiler vacacional en la Cerdanya.",
+    "why": {
+      "title": "Por qué reformamos",
+      "text": "Cuidar casas cada semana enseña cómo envejecen: dónde entra la humedad, qué calefacción falla en febrero, qué materiales aguantan. Reformamos con lo que hemos aprendido manteniéndolas."
+    },
+    "area": {
+      "title": "A los dos lados de la frontera",
+      "text": "Trabajamos en la Cerdanya española y en la francesa, de Bellver de Cerdanya a Font-Romeu."
+    },
+    "parent": {
+      "title": "Cerdanya Privé",
+      "text": "Si después de la reforma quiere alquilar la casa cuando no la usa, Cerdanya Privé puede ocuparse de la gestión.",
+      "link": "Visitar cerdanyaprive.com"
+    },
+    "team": {
+      "title": "El equipo",
+      "pending": "Pendiente antes del lanzamiento: nombres, funciones y retratos del equipo."
+    }
   }
 }

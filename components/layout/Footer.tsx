@@ -83,6 +83,11 @@ export async function Footer() {
             </h2>
             <ul className="flex flex-col gap-2 text-small">
               <li>
+                <Link href="/nosotros" className={linkClass}>
+                  {t("nav.about")}
+                </Link>
+              </li>
+              <li>
                 <Link href="/aviso-legal" className={linkClass}>
                   {t("footer.legalNotice")}
                 </Link>

@@ -146,7 +146,8 @@
     "method": "Méthode",
     "zones": "Secteurs",
     "journal": "Journal",
-    "contact": "Contact"
+    "contact": "Contact",
+    "about": "À propos"
   },
   "notFound": {
     "title": "Cette page n'existe pas.",
@@ -221,5 +222,78 @@
     "services": "Ce que nous faisons",
     "otherTowns": "Autres secteurs",
     "metaTitle": "{title} | Cerdanya Reformes"
+  },
+  "method": {
+    "metaTitle": "Méthode : rénover à distance en Cerdagne | Cerdanya Reformes",
+    "metaDescription": "Comment nous menons une rénovation en Cerdagne pour des propriétaires à distance : six étapes, un seul interlocuteur et un compte rendu en photos chaque semaine.",
+    "title": "De la première visite aux clés",
+    "intro": "Une rénovation en montagne, suivie de loin, demande de l'ordre. Voici le nôtre : six étapes, un seul interlocuteur et un compte rendu chaque semaine.",
+    "steps": {
+      "0": {
+        "title": "Première visite",
+        "text": "Nous voyons la maison avec vous, ou sans vous si vous nous laissez les clés. Nous mesurons, photographions et écoutons comment vous l'utilisez et ce qui lui manque."
+      },
+      "1": {
+        "title": "Proposition",
+        "text": "Nous vous présentons une idée de distribution et de matériaux, avec une estimation de coût et de délai pour décider de la suite."
+      },
+      "2": {
+        "title": "Projet et devis",
+        "text": "Plans, matériaux choisis sur échantillons et un devis détaillé poste par poste. Nous déposons les demandes d'autorisation en mairie."
+      },
+      "3": {
+        "title": "Chantier",
+        "text": "Nous coordonnons les artisans et les livraisons. Chaque semaine, vous recevez un compte rendu en photos et la suite prévue."
+      },
+      "4": {
+        "title": "Intérieur",
+        "text": "Menuiserie, mobilier, textiles et lumière. Nous montons et installons tout avant la remise des clés."
+      },
+      "5": {
+        "title": "Clés",
+        "text": "Nous livrons la maison propre et prête à vivre. Si vous souhaitez la louer quand vous ne l'occupez pas, Cerdanya Privé peut la gérer."
+      }
+    },
+    "remote": {
+      "title": "À distance",
+      "items": {
+        "0": {
+          "title": "Un seul interlocuteur",
+          "text": "Une personne connaît votre chantier et en répond."
+        },
+        "1": {
+          "title": "Compte rendu hebdomadaire",
+          "text": "Photos, avancement et décisions à prendre, chaque semaine."
+        },
+        "2": {
+          "title": "Décider sans se déplacer",
+          "text": "Visioconférences et échantillons envoyés chez vous. Vous montez quand vous voulez, pas quand il le faut."
+        }
+      }
+    },
+    "pending": "À confirmer avant le lancement : qui exécute les travaux (équipe propre, entreprises locales coordonnées ou architecte associé), pour ajuster ce texte."
+  },
+  "about": {
+    "metaTitle": "À propos | Cerdanya Reformes by Cerdanya Privé",
+    "metaDescription": "Cerdanya Reformes est la marque de rénovation de Cerdanya Privé : nous rénovons des maisons de montagne en Cerdagne avec ce que nous avons appris en les entretenant.",
+    "title": "À propos",
+    "intro": "Cerdanya Reformes est la marque de rénovation de Cerdanya Privé, qui gère des locations de vacances en Cerdagne.",
+    "why": {
+      "title": "Pourquoi nous rénovons",
+      "text": "Veiller sur des maisons chaque semaine apprend comment elles vieillissent : par où entre l'humidité, quel chauffage lâche en février, quels matériaux tiennent. Nous rénovons avec ce que nous avons appris en les entretenant."
+    },
+    "area": {
+      "title": "Des deux côtés de la frontière",
+      "text": "Nous travaillons en Cerdagne française et en Cerdagne espagnole, de Font-Romeu à Bellver de Cerdanya."
+    },
+    "parent": {
+      "title": "Cerdanya Privé",
+      "text": "Si, après la rénovation, vous souhaitez louer la maison quand vous ne l'occupez pas, Cerdanya Privé peut s'en charger.",
+      "link": "Visiter cerdanyaprive.com"
+    },
+    "team": {
+      "title": "L'équipe",
+      "pending": "À confirmer avant le lancement : noms, rôles et portraits de l'équipe."
+    }
   }
 }
