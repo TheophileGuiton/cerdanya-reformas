@@ -1,0 +1,30 @@
+# deps & build
+node_modules/
+.next/
+out/
+dist/
+.vercel/
+.sanity/
+
+# env & secrets
+.env
+.env.*
+!.env.local.example
+
+# Claude Code local-only
+.claude/settings.local.json
+CLAUDE.local.md
+
+# QA artifacts
+.screenshots/
+.directions/
+playwright-report/
+test-results/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts

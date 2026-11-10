@@ -1,0 +1,489 @@
+{
+  "meta": {
+    "title": "Reformes a la Cerdanya · Xalets i cases de pedra | Cerdanya Reformes",
+    "description": "Reforma integral i interiorisme de xalets i cases de muntanya a Puigcerdà, Alp, Llívia i la Cerdanya francesa. Disseny, obra i clau en mà per a propietaris a distància."
+  },
+  "brand": {
+    "endorsement": "by Cerdanya Privé",
+    "home": "Cerdanya Reformes, inici"
+  },
+  "lang": {
+    "label": "Idioma",
+    "es": "Español",
+    "ca": "Català",
+    "fr": "Français"
+  },
+  "home": {
+    "keyword": "Reformes i interiorisme a la Cerdanya",
+    "headline": "La sala, el foc i el Cadí a la finestra.",
+    "intro": "Reformem l'interior de xalets i cases de pedra: mur de granit a la vista, làrix, roure i llana, amb mobles fets a mida. Ens ocupem de tot, encara que sigueu a Barcelona.",
+    "heroAlt": "Sala de la Casa Pairal Alp amb la llar de foc de ferro encesa, sofàs de lli i un finestral a la serra del Cadí",
+    "heroCaption": "Casa Pairal Alp, la sala amb el foc encès",
+    "why": {
+      "title": "Cuidem cases com la vostra cada setmana.",
+      "items": {
+        "0": {
+          "title": "Ja coneixem aquestes cases",
+          "text": "Cerdanya Privé gestiona xalets a la vall cada setmana. Sabem com envelleix una casa de muntanya amb la gelada, la neu i la humitat."
+        },
+        "1": {
+          "title": "Un sol interlocutor",
+          "text": "Permisos, arquitecte, oficis, mobles, neteja i claus. Cada setmana rebeu un informe amb fotos. No cal pujar."
+        },
+        "2": {
+          "title": "Per viure-hi i per llogar-la",
+          "text": "Si després la voleu llogar, Cerdanya Privé se'n pot ocupar. Dissenyem pensant-hi: materials que duren i lloc per desar."
+        }
+      }
+    },
+    "materials": {
+      "title": "Sis materials, sempre a la vista",
+      "text": "Una casa ceretana es reconeix pel que es toca. Treballem amb pocs materials i no els amaguem.",
+      "items": {
+        "0": {
+          "name": "Granit",
+          "use": "Els murs que ja hi són. Es netegen i es rejunten amb calç."
+        },
+        "1": {
+          "name": "Làrix",
+          "use": "Finestres, galeries i revestiments."
+        },
+        "2": {
+          "name": "Roure",
+          "use": "Terres, taules i fusteria a mida."
+        },
+        "3": {
+          "name": "Ferro ennegrit",
+          "use": "Llars de foc, escales i tiradors."
+        },
+        "4": {
+          "name": "Llana",
+          "use": "Catifes, mantes i tapisseries."
+        },
+        "5": {
+          "name": "Calç",
+          "use": "Arrebossats que deixen respirar el mur."
+        }
+      }
+    },
+    "rooms": {
+      "title": "Estances",
+      "all": "Veure els set projectes",
+      "items": {
+        "0": {
+          "title": "La cuina de la Casa Pairal Alp",
+          "text": "Illa llarga de roure, fronts d'acer fosc i bigues antigues."
+        },
+        "1": {
+          "title": "La sala de la Borda de Meranges",
+          "text": "Encavallades originals, altell de làrix i estufa de llenya."
+        },
+        "2": {
+          "title": "La llibreria de l'Àtic Llac",
+          "text": "Paret de roure a mida, de terra a sostre."
+        }
+      }
+    },
+    "services": {
+      "title": "El que fem",
+      "text": "Ens podeu encarregar una estança o la casa sencera."
+    },
+    "method": {
+      "title": "De la primera visita a les claus",
+      "link": "Com treballem",
+      "steps": {
+        "0": {
+          "title": "Primera visita",
+          "text": "Veiem la casa amb vosaltres, o sense vosaltres si ens deixeu les claus, i escoltem què necessiteu."
+        },
+        "1": {
+          "title": "Projecte i pressupost",
+          "text": "Plànols, materials i un pressupost detallat per partides abans de començar."
+        },
+        "2": {
+          "title": "Obra",
+          "text": "Coordinem permisos i oficis. Cada setmana, un informe amb fotos."
+        },
+        "3": {
+          "title": "Claus",
+          "text": "Lliurem la casa moblada i neta. Si voleu, Cerdanya Privé la gestiona en lloguer."
+        }
+      }
+    },
+    "contact": {
+      "title": "Expliqueu-nos casa vostra",
+      "text": "Us truquem en un dia laborable per acordar una primera visita.",
+      "cta": "Demanar una primera visita"
+    }
+  },
+  "image": {
+    "aiCredit": "Imatge generada amb IA",
+    "concept": "Projecte conceptual",
+    "pending": "Imatge pendent: {file}"
+  },
+  "whatsapp": {
+    "label": "Escriure per WhatsApp",
+    "message": "Hola, us escric des de la pàgina «{title}» de Cerdanya Reformes. M'agradaria parlar d'una reforma."
+  },
+  "footer": {
+    "statement": "Cases de muntanya, fetes per durar.",
+    "parent": "Gestió de lloguer de vacances a la Cerdanya",
+    "contact": "Contacte",
+    "zones": "Zones",
+    "services": "Serveis",
+    "legal": "Legal",
+    "legalNotice": "Avís legal",
+    "privacy": "Privacitat",
+    "cookies": "Galetes"
+  },
+  "nav": {
+    "main": "Principal",
+    "skip": "Salta al contingut",
+    "menu": "Menú",
+    "close": "Tanca",
+    "projects": "Projectes",
+    "services": "Serveis",
+    "method": "Mètode",
+    "zones": "Zones",
+    "journal": "Journal",
+    "contact": "Contacte",
+    "about": "Nosaltres"
+  },
+  "notFound": {
+    "title": "Aquesta pàgina no existeix.",
+    "text": "Pot ser que l'adreça hagi canviat o que l'enllaç sigui incomplet.",
+    "back": "Torna a l'inici"
+  },
+  "projects": {
+    "index": {
+      "title": "Projectes de reforma a la Cerdanya",
+      "intro": "Els set projectes d'aquesta pàgina són conceptuals: mostren com treballem mentre documentem les primeres obres lliurades. Les imatges estan generades amb IA.",
+      "metaTitle": "Projectes de reformes a la Cerdanya | Cerdanya Reformes",
+      "metaDescription": "Xalets, cases de pedra, bordes i àtics reformats a la Cerdanya: estances, materials i l'abans i el després de cada projecte."
+    },
+    "filter": {
+      "label": "Tipus d'habitatge",
+      "all": "Tots"
+    },
+    "types": {
+      "chalet": "Xalets",
+      "casa-de-piedra": "Cases de pedra",
+      "borda": "Bordes",
+      "atico": "Àtics"
+    },
+    "scopes": {
+      "reforma-integral": "Reforma integral",
+      "rehabilitacion": "Rehabilitació",
+      "interiorismo": "Interiorisme",
+      "cocina-banos": "Cuina i banys",
+      "wellness": "Wellness",
+      "eficiencia": "Eficiència energètica",
+      "llave-en-mano": "Clau en mà",
+      "gestion-alquiler": "Gestió de lloguer"
+    },
+    "facts": {
+      "town": "Municipi",
+      "surface": "Superfície",
+      "duration": "Durada",
+      "scope": "Abast"
+    },
+    "months": "{count} mesos",
+    "back": "Tots els projectes",
+    "materials": "Materials",
+    "beforeAfter": {
+      "title": "Abans i després",
+      "before": "Abans",
+      "after": "Després",
+      "slider": "Comparar l'abans i el després"
+    },
+    "next": "Projecte següent",
+    "conceptNote": "Projecte conceptual. La casa no existeix i les imatges estan generades amb IA: mostra com treballem.",
+    "metaTitle": "{title}, {town} | Cerdanya Reformes"
+  },
+  "servicesPage": {
+    "index": {
+      "title": "Serveis de reforma i interiorisme a la Cerdanya",
+      "intro": "Ens podeu encarregar una estança o la casa sencera. En tots els casos hi ha un sol interlocutor i un informe cada setmana.",
+      "metaTitle": "Serveis de reforma i interiorisme a la Cerdanya | Cerdanya Reformes",
+      "metaDescription": "Interiorisme, cuines i banys, reforma integral, cases de pedra, wellness, eficiència, domòtica i clau en mà a la Cerdanya."
+    },
+    "back": "Tots els serveis",
+    "includes": "Què inclou",
+    "approach": "Com ho fem",
+    "faq": "Preguntes freqüents",
+    "related": "Projectes relacionats",
+    "others": "Altres serveis",
+    "metaTitle": "{title} | Cerdanya Reformes"
+  },
+  "townPage": {
+    "houses": "Les cases d'aquí",
+    "note": "Abans de començar",
+    "project": "Un projecte aquí",
+    "services": "El que fem",
+    "otherTowns": "Altres zones",
+    "metaTitle": "{title} | Cerdanya Reformes"
+  },
+  "method": {
+    "metaTitle": "Mètode: reforma a distància a la Cerdanya | Cerdanya Reformes",
+    "metaDescription": "Com gestionem una reforma a la Cerdanya per a propietaris a distància: sis passos, un sol interlocutor i un informe amb fotos cada setmana.",
+    "title": "De la primera visita a les claus",
+    "intro": "Una reforma a muntanya, portada de lluny, necessita ordre. Aquest és el nostre: sis passos, un sol interlocutor i un informe cada setmana.",
+    "steps": {
+      "0": {
+        "title": "Primera visita",
+        "text": "Veiem la casa amb vosaltres, o sense vosaltres si ens deixeu les claus. Amidem, fotografiem i escoltem com la feu servir i què hi falta."
+      },
+      "1": {
+        "title": "Proposta",
+        "text": "Us presentem una idea de distribució i materials, amb una estimació de cost i de termini per decidir si continuem."
+      },
+      "2": {
+        "title": "Projecte i pressupost",
+        "text": "Plànols, materials triats sobre mostres i un pressupost detallat per partides. Tramitem la llicència amb l'ajuntament."
+      },
+      "3": {
+        "title": "Obra",
+        "text": "Coordinem els oficis i els lliuraments. Cada setmana rebeu un informe amb fotos i el que ve després."
+      },
+      "4": {
+        "title": "Interior",
+        "text": "Fusteria, mobiliari, teixits i llum. Ho muntem i ho col·loquem tot abans del lliurament."
+      },
+      "5": {
+        "title": "Claus",
+        "text": "Lliurem la casa neta i a punt per entrar-hi. Si la voleu llogar quan no la feu servir, Cerdanya Privé la pot gestionar."
+      }
+    },
+    "remote": {
+      "title": "A distància",
+      "items": {
+        "0": {
+          "title": "Un sol interlocutor",
+          "text": "Una persona coneix la vostra obra i en respon."
+        },
+        "1": {
+          "title": "Informe setmanal",
+          "text": "Fotos, avenç i decisions pendents, cada setmana."
+        },
+        "2": {
+          "title": "Decisions sense viatjar",
+          "text": "Videotrucades i mostres enviades a casa. Pugeu quan voleu, no quan cal."
+        }
+      }
+    },
+    "pending": "Pendent abans del llançament: confirmar qui executa les obres (equip propi, constructors locals coordinats o arquitecte associat) per ajustar aquest text."
+  },
+  "about": {
+    "metaTitle": "Nosaltres | Cerdanya Reformes by Cerdanya Privé",
+    "metaDescription": "Cerdanya Reformes és la marca de reformes de Cerdanya Privé: reformem cases de muntanya a la Cerdanya amb el que hem après cuidant-les cada setmana.",
+    "title": "Nosaltres",
+    "intro": "Cerdanya Reformes és la marca de reformes de Cerdanya Privé, que gestiona cases de lloguer de vacances a la Cerdanya.",
+    "why": {
+      "title": "Per què reformem",
+      "text": "Cuidar cases cada setmana ensenya com envelleixen: per on entra la humitat, quina calefacció falla al febrer, quins materials aguanten. Reformem amb el que hem après mantenint-les."
+    },
+    "area": {
+      "title": "A banda i banda de la frontera",
+      "text": "Treballem a la Baixa Cerdanya i a l'Alta Cerdanya, de Bellver de Cerdanya a Font-romeu."
+    },
+    "parent": {
+      "title": "Cerdanya Privé",
+      "text": "Si després de la reforma voleu llogar la casa quan no la feu servir, Cerdanya Privé es pot ocupar de la gestió.",
+      "link": "Visitar cerdanyaprive.com"
+    },
+    "team": {
+      "title": "L'equip",
+      "pending": "Pendent abans del llançament: noms, funcions i retrats de l'equip."
+    }
+  },
+  "lead": {
+    "fields": {
+      "name": "Nom",
+      "email": "Correu electrònic",
+      "phone": "Telèfon",
+      "whatsapp": "Prefereixo WhatsApp",
+      "town": "Municipi de l'habitatge",
+      "houseType": "Tipus d'habitatge",
+      "surface": "Superfície aproximada",
+      "projectType": "Tipus de projecte",
+      "budget": "Pressupost orientatiu",
+      "timing": "Termini",
+      "owner": "Ja en sou propietaris?",
+      "rental": "M'interessa la gestió del lloguer després",
+      "message": "Missatge",
+      "optional": "opcional",
+      "choose": "Tria",
+      "other": "Un altre"
+    },
+    "options": {
+      "houseType": {
+        "chalet": "Xalet",
+        "casa-de-piedra": "Casa de pedra o casa pairal",
+        "borda": "Borda",
+        "atico": "Àtic o apartament",
+        "otro": "Un altre"
+      },
+      "surface": {
+        "lt150": "Menys de 150 m²",
+        "150-300": "150–300 m²",
+        "300-500": "300–500 m²",
+        "gt500": "Més de 500 m²"
+      },
+      "projectType": {
+        "integral": "Reforma integral",
+        "parcial": "Reforma parcial",
+        "interiorismo": "Interiorisme",
+        "cocina-banos": "Cuina o banys",
+        "wellness": "Wellness",
+        "eficiencia": "Eficiència energètica"
+      },
+      "budget": {
+        "lt150k": "Menys de 150.000 €",
+        "150-300k": "150.000–300.000 €",
+        "300-600k": "300.000–600.000 €",
+        "gt600k": "Més de 600.000 €",
+        "unknown": "Encara no ho sé"
+      },
+      "timing": {
+        "asap": "Com més aviat millor",
+        "3-6": "D'aquí a 3–6 mesos",
+        "6-12": "D'aquí a 6–12 mesos",
+        "exploring": "Només explorant"
+      },
+      "owner": {
+        "yes": "Sí",
+        "buying": "En procés de compra",
+        "searching": "Encara busquem"
+      }
+    },
+    "consent": "He llegit i accepto la <link>política de privacitat</link>.",
+    "submit": "Demanar una primera visita",
+    "sending": "Enviant…",
+    "info": "Responsable: Cerdanya Reformes. Finalitat: respondre a la vostra sol·licitud. Legitimació: el vostre consentiment. Drets: accés, rectificació i supressió. Més informació a la política de privacitat.",
+    "errors": {
+      "summary": "Reviseu els camps marcats.",
+      "required": "Aquest camp és necessari.",
+      "email": "Escriviu un correu vàlid, per exemple nom@domini.com.",
+      "phone": "Escriviu un telèfon amb prefix, per exemple +34 600 000 000.",
+      "consent": "Necessitem la vostra acceptació per poder-vos respondre.",
+      "rate": "Hem rebut diverses sol·licituds seguides. Espereu uns minuts o truqueu-nos.",
+      "send": "No hem pogut enviar la sol·licitud. Truqueu-nos o escriviu-nos per WhatsApp.",
+      "captcha": "No hem pogut verificar l'enviament. Torneu-ho a provar."
+    },
+    "success": {
+      "title": "Gràcies. Hem rebut la vostra sol·licitud.",
+      "text": "Us truquem en un dia laborable per acordar una primera visita.",
+      "whatsapp": "Si ho preferiu, escriviu-nos per WhatsApp"
+    }
+  },
+  "contact": {
+    "metaTitle": "Contacte | Cerdanya Reformes",
+    "metaDescription": "Demaneu una primera visita per reformar casa vostra a la Cerdanya: formulari, telèfon o WhatsApp. Us truquem en un dia laborable.",
+    "title": "Expliqueu-nos casa vostra",
+    "intro": "Ompliu el que sapigueu; la resta la veiem junts. Us truquem en un dia laborable per acordar una primera visita.",
+    "call": "O truqueu-nos"
+  },
+  "consentBanner": {
+    "label": "Galetes",
+    "text": "Fem servir galetes de mesura només si les accepteu. El lloc funciona igual sense.",
+    "accept": "Acceptar",
+    "reject": "Rebutjar",
+    "more": "Política de galetes"
+  },
+  "journal": {
+    "title": "Journal: reformar a la Cerdanya",
+    "intro": "Notes pràctiques sobre reformar i mantenir una casa de muntanya.",
+    "metaTitle": "Journal: reformar una casa a la Cerdanya | Cerdanya Reformes",
+    "metaDescription": "Articles pràctics sobre reformes a la Cerdanya: èpoques d'obra, calefacció a muntanya i com reformar una casa per llogar-la.",
+    "back": "Tots els articles",
+    "published": "Publicat el {date}",
+    "metaArticle": "{title} | Cerdanya Reformes"
+  },
+  "legal": {
+    "pending": "Esborrany pendent de revisió legal. Falten les dades de l'entitat titular (denominació, NIF, domicili i registre) i la validació d'un assessor abans del llançament.",
+    "metaTitle": "{title} | Cerdanya Reformes",
+    "notice": {
+      "title": "Avís legal",
+      "sections": {
+        "0": {
+          "title": "Titular del lloc",
+          "text": "Aquest lloc pertany a Cerdanya Reformes, marca de Cerdanya Privé. Les dades identificatives de l'entitat titular s'hi afegiran abans del llançament."
+        },
+        "1": {
+          "title": "Contacte",
+          "text": "Telèfon i WhatsApp: +34 625 01 43 88."
+        },
+        "2": {
+          "title": "Projectes i imatges",
+          "text": "Els projectes que es mostren actualment són conceptuals i les seves imatges estan generades amb intel·ligència artificial. No representen cases ni clients reals i així s'indica en cadascun."
+        },
+        "3": {
+          "title": "Propietat intel·lectual",
+          "text": "Els textos, el disseny i les imatges del lloc pertanyen al seu titular. No es poden reutilitzar sense permís."
+        },
+        "4": {
+          "title": "Responsabilitat",
+          "text": "La informació del lloc és orientativa i no constitueix cap oferta ni pressupost. Cada reforma es defineix en un projecte i un pressupost propis."
+        }
+      }
+    },
+    "privacy": {
+      "title": "Política de privacitat",
+      "sections": {
+        "0": {
+          "title": "Responsable",
+          "text": "Cerdanya Reformes, marca de Cerdanya Privé. Les dades de l'entitat responsable s'hi afegiran abans del llançament."
+        },
+        "1": {
+          "title": "Quines dades tractem",
+          "text": "Les que ens envieu pel formulari: nom, correu, telèfon, dades de l'habitatge i del projecte, i el vostre missatge. Amb elles es desen l'idioma, la pàgina des d'on escriviu i, si heu arribat des d'un anunci, els paràmetres de la campanya."
+        },
+        "2": {
+          "title": "Per a què",
+          "text": "Per respondre a la vostra sol·licitud i preparar una primera visita. No enviem butlletins."
+        },
+        "3": {
+          "title": "Base legal",
+          "text": "El vostre consentiment, que doneu en marcar la casella del formulari i que podeu retirar quan vulgueu."
+        },
+        "4": {
+          "title": "Qui hi accedeix",
+          "text": "El nostre equip i els proveïdors que fan funcionar el lloc: allotjament web, enviament de correu i protecció contra enviaments automàtics. Si indiqueu interès en la gestió del lloguer, compartim la sol·licitud amb Cerdanya Privé."
+        },
+        "5": {
+          "title": "Quant de temps",
+          "text": "El termini de conservació s'indicarà aquí abans del llançament."
+        },
+        "6": {
+          "title": "Els vostres drets",
+          "text": "Podeu demanar accés, rectificació, supressió, limitació, oposició i portabilitat de les vostres dades, i reclamar davant l'Agència Espanyola de Protecció de Dades."
+        }
+      }
+    },
+    "cookies": {
+      "title": "Política de galetes",
+      "sections": {
+        "0": {
+          "title": "Sense el vostre permís, gairebé res",
+          "text": "El lloc funciona sense galetes de mesura ni de publicitat. Només fem servir una galeta tècnica per recordar l'idioma triat."
+        },
+        "1": {
+          "title": "La vostra tria sobre la mesura",
+          "text": "Si la mesura està activa, us ho preguntem una vegada. La resposta es desa al vostre navegador i no s'envia a ningú."
+        },
+        "2": {
+          "title": "Si accepteu",
+          "text": "Es carreguen Google Analytics i, si escau, la mesura de conversions de Google Ads, que desen galetes com _ga per comptar visites i sol·licituds."
+        },
+        "3": {
+          "title": "Com canviar d'opinió",
+          "text": "Esborreu les dades d'aquest lloc al navegador i la pregunta tornarà a aparèixer."
+        },
+        "4": {
+          "title": "Formulari",
+          "text": "Per protegir el formulari contra enviaments automàtics es pot fer servir Cloudflare Turnstile, que no requereix galetes de publicitat."
+        }
+      }
+    }
+  }
+}

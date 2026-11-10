@@ -1,0 +1,19 @@
+Generated with Canva AI image generation on 2026-11-10 (no seed available).
+Prompt = line below + style block + negative list from content-seed/image-prompts.md.
+"Before" images use the documentary block instead of the style block.
+Exported from Canva at the sizes shown; the model's native size is smaller, so files are upscaled.
+
+living.jpg   3:2  2400x1600  Canva media MAHahOhQuPU
+  Open kitchen-living space inside a stone house, exposed granite walls, oak floor, central blackened-iron fireplace with a fire burning, low linen sofas, wool rug, large window to snowy mountains
+kitchen.jpg  3:2  2400x1600  Canva media MAHaiWx3aBQ
+  Minimal kitchen with long oak island and dark steel fronts, lime-plastered walls, exposed old timber beams, pendant iron lamps
+cover.jpg    4:5  1920x2400  Canva media MAHaiQCskww
+  Restored 19th-century stone family house (casa pairal) near Alp, close view of the old wooden gate and granite stone facade, slate roof and deep eaves above, late afternoon light
+gallery.jpg  4:5  1920x2400  Canva media MAHaiWYZDf4
+  Glazed gallery with larch frames, reading chairs, view over the Cerdanya valley and the Cadí range
+sauna.jpg    4:5  1920x2400  Canva media MAHaiezY-Q0
+  Fir-wood sauna built in an old stone stable, small window to the forest, warm light
+detail.jpg   1:1  2000x2000  Canva media MAHaidRUMEM
+  Close-up of a granite wall meeting an oak floor and a blackened iron handle
+
+Not generated yet (Canva credit quota reached): hero, before-1, before-2, before-3.

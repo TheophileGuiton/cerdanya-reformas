@@ -1,0 +1,159 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+@import "shadcn/tailwind.css";
+@import "lenis/dist/lenis.css";
+
+/* Tokens from DESIGN.md ("Llar"). No colour, font, radius or motion value
+   may be used in the app unless it is declared here. */
+@theme {
+  --color-*: initial;
+  --color-wool: #d8d0c2;
+  --color-lime: #ebe5d9;
+  --color-granite: #9c968b;
+  --color-oak: #a77f56;
+  --color-timber: #8a6644;
+  --color-bark: #5a4e44;
+  --color-walnut: #2e2520;
+  --color-fleece: #cfc6b5;
+  --color-iron: #1f1d1c;
+  --color-loden: #465241;
+  --color-error: #8c2f1b;
+  --color-transparent: transparent;
+  --color-current: currentColor;
+
+  --text-display-xl: clamp(2.5rem, 5.6vw, 5.25rem);
+  --text-display-xl--line-height: 1.02;
+  --text-display-xl--letter-spacing: -0.01em;
+  --text-display-l: clamp(2.125rem, 4vw, 3.625rem);
+  --text-display-l--line-height: 1.05;
+  --text-display-l--letter-spacing: -0.005em;
+  --text-display-m: clamp(1.5rem, 2vw, 1.75rem);
+  --text-display-m--line-height: 1.15;
+  --text-title: clamp(1.25rem, 1.6vw, 1.375rem);
+  --text-title--line-height: 1.2;
+  --text-body-l: clamp(1.0625rem, 1.3vw, 1.125rem);
+  --text-body-l--line-height: 1.55;
+  --text-body: clamp(1rem, 1.2vw, 1.0625rem);
+  --text-body--line-height: 1.6;
+  --text-small: 0.9375rem;
+  --text-small--line-height: 1.5;
+  --text-note: 0.8125rem;
+  --text-note--line-height: 1.45;
+  --text-nav: 0.9375rem;
+  --text-nav--line-height: 1;
+
+  --radius-*: initial;
+  --radius-none: 0;
+  --radius-sm: 2px;
+  --radius-md: 2px;
+  --radius-lg: 2px;
+  --radius-xl: 2px;
+  --radius-full: 9999px;
+
+  --ease-out: cubic-bezier(0.22, 1, 0.36, 1);
+  --container-page: 90rem;
+  --spacing-margin: clamp(1.25rem, 3.9vw, 3.5rem);
+  --spacing-section: clamp(5rem, 8.4vw, 7.5rem);
+}
+
+@theme inline {
+  --font-display: var(--font-caslon-display), "Libre Caslon Text", Georgia, serif;
+  --font-serif: var(--font-caslon-text), Georgia, serif;
+  --font-sans: var(--font-grotesk), system-ui, sans-serif;
+
+  /* shadcn semantic names, mapped onto the tokens above */
+  --color-background: var(--color-wool);
+  --color-foreground: var(--color-walnut);
+  --color-card: var(--color-lime);
+  --color-card-foreground: var(--color-walnut);
+  --color-popover: var(--color-lime);
+  --color-popover-foreground: var(--color-walnut);
+  --color-primary: var(--color-walnut);
+  --color-primary-foreground: var(--color-lime);
+  --color-secondary: var(--color-lime);
+  --color-secondary-foreground: var(--color-walnut);
+  --color-muted: var(--color-lime);
+  --color-muted-foreground: var(--color-bark);
+  --color-accent: var(--color-lime);
+  --color-accent-foreground: var(--color-walnut);
+  --color-destructive: var(--color-error);
+  --color-border: var(--color-granite);
+  --color-input: var(--color-bark);
+  --color-ring: var(--color-loden);
+}
+
+:root {
+  --dur-fast: 300ms;
+  --dur-base: 900ms;
+  --dur-slow: 1400ms;
+  --stagger: 90ms;
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  html {
+    @apply font-sans;
+    -webkit-text-size-adjust: 100%;
+  }
+  body {
+    @apply bg-wool text-walnut text-body antialiased;
+  }
+  h1,
+  h2,
+  h3 {
+    font-weight: 400;
+    text-wrap: balance;
+  }
+  :focus-visible {
+    outline: 2px solid var(--color-loden);
+    outline-offset: 4px;
+  }
+  p,
+  li {
+    text-wrap: pretty;
+  }
+  ::selection {
+    background: var(--color-loden);
+    color: var(--color-lime);
+  }
+  input,
+  textarea {
+    caret-color: var(--color-loden);
+  }
+  .on-dark :focus-visible {
+    outline-color: var(--color-lime);
+  }
+}
+
+@utility wrap {
+  width: 100%;
+  max-width: var(--container-page);
+  margin-inline: auto;
+  padding-inline: var(--spacing-margin);
+}
+
+@utility link-underline {
+  font-weight: 600;
+  text-decoration: none;
+  border-bottom: 2px solid var(--color-loden);
+  padding-bottom: 6px;
+  display: inline-block;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* The floating WhatsApp button steps aside while the mobile menu is open. */
+html[data-menu-open] [data-whatsapp-button] {
+  display: none;
+}

@@ -1,0 +1,489 @@
+{
+  "meta": {
+    "title": "Rénovation en Cerdagne · Chalets et maisons en pierre | Cerdanya Reformes",
+    "description": "Rénovation complète et architecture d'intérieur de chalets et de maisons de montagne à Font-Romeu, Bourg-Madame, Puigcerdà et Llívia. Conception, travaux et clé en main, à distance."
+  },
+  "brand": {
+    "endorsement": "by Cerdanya Privé",
+    "home": "Cerdanya Reformes, accueil"
+  },
+  "lang": {
+    "label": "Langue",
+    "es": "Español",
+    "ca": "Català",
+    "fr": "Français"
+  },
+  "home": {
+    "keyword": "Rénovation et architecture d'intérieur en Cerdagne",
+    "headline": "Le salon, le feu et le Cadí à la fenêtre.",
+    "intro": "Nous rénovons l'intérieur des chalets et des maisons en pierre : mur de granit apparent, mélèze, chêne et laine, avec du mobilier sur mesure. Nous nous occupons de tout, même si vous êtes à Toulouse ou à Paris.",
+    "heroAlt": "Salon de la Casa Pairal Alp avec la cheminée en fer allumée, des canapés en lin et une baie vitrée sur la sierra del Cadí",
+    "heroCaption": "Casa Pairal Alp, le salon avec le feu allumé",
+    "why": {
+      "title": "Nous veillons chaque semaine sur des maisons comme la vôtre.",
+      "items": {
+        "0": {
+          "title": "Nous connaissons déjà ces maisons",
+          "text": "Cerdanya Privé gère des chalets dans la vallée chaque semaine. Nous savons comment vieillit une maison de montagne avec le gel, la neige et l'humidité."
+        },
+        "1": {
+          "title": "Un seul interlocuteur",
+          "text": "Autorisations, architecte, artisans, mobilier, ménage et clés. Chaque semaine, vous recevez un compte rendu en photos. Inutile de monter."
+        },
+        "2": {
+          "title": "Pour y vivre et pour la louer",
+          "text": "Si vous souhaitez ensuite la louer, Cerdanya Privé peut s'en charger. Nous concevons en y pensant : des matériaux qui durent et de la place pour ranger."
+        }
+      }
+    },
+    "materials": {
+      "title": "Six matériaux, toujours apparents",
+      "text": "Une maison cerdane se reconnaît à ce que l'on touche. Nous travaillons avec peu de matériaux et nous ne les cachons pas.",
+      "items": {
+        "0": {
+          "name": "Granit",
+          "use": "Les murs déjà là. Nettoyés et rejointoyés à la chaux."
+        },
+        "1": {
+          "name": "Mélèze",
+          "use": "Fenêtres, galeries et bardages."
+        },
+        "2": {
+          "name": "Chêne",
+          "use": "Sols, tables et menuiserie sur mesure."
+        },
+        "3": {
+          "name": "Fer noirci",
+          "use": "Cheminées, escaliers et poignées."
+        },
+        "4": {
+          "name": "Laine",
+          "use": "Tapis, plaids et assises."
+        },
+        "5": {
+          "name": "Chaux",
+          "use": "Des enduits qui laissent respirer le mur."
+        }
+      }
+    },
+    "rooms": {
+      "title": "Pièces",
+      "all": "Voir les sept projets",
+      "items": {
+        "0": {
+          "title": "La cuisine de la Casa Pairal Alp",
+          "text": "Long îlot en chêne, façades en acier sombre et poutres anciennes."
+        },
+        "1": {
+          "title": "Le séjour de la Borda de Meranges",
+          "text": "Charpente d'origine, mezzanine en mélèze et poêle à bois."
+        },
+        "2": {
+          "title": "La bibliothèque de l'Àtic Llac",
+          "text": "Mur en chêne sur mesure, du sol au plafond."
+        }
+      }
+    },
+    "services": {
+      "title": "Ce que nous faisons",
+      "text": "Vous pouvez nous confier une pièce ou la maison entière."
+    },
+    "method": {
+      "title": "De la première visite aux clés",
+      "link": "Notre méthode",
+      "steps": {
+        "0": {
+          "title": "Première visite",
+          "text": "Nous voyons la maison avec vous, ou sans vous si vous nous laissez les clés, et nous écoutons vos besoins."
+        },
+        "1": {
+          "title": "Projet et devis",
+          "text": "Plans, matériaux et un devis détaillé poste par poste avant de commencer."
+        },
+        "2": {
+          "title": "Chantier",
+          "text": "Nous coordonnons autorisations et artisans. Chaque semaine, un compte rendu en photos."
+        },
+        "3": {
+          "title": "Clés",
+          "text": "Nous livrons la maison meublée et propre. Si vous le souhaitez, Cerdanya Privé la gère en location."
+        }
+      }
+    },
+    "contact": {
+      "title": "Parlez-nous de votre maison",
+      "text": "Nous vous appelons sous un jour ouvré pour convenir d'une première visite.",
+      "cta": "Demander une première visite"
+    }
+  },
+  "image": {
+    "aiCredit": "Image générée par IA",
+    "concept": "Projet conceptuel",
+    "pending": "Image à venir : {file}"
+  },
+  "whatsapp": {
+    "label": "Écrire sur WhatsApp",
+    "message": "Bonjour, je vous écris depuis la page « {title} » de Cerdanya Reformes. J'aimerais parler d'une rénovation."
+  },
+  "footer": {
+    "statement": "Des maisons de montagne, faites pour durer.",
+    "parent": "Gestion de locations de vacances en Cerdagne",
+    "contact": "Contact",
+    "zones": "Secteurs",
+    "services": "Services",
+    "legal": "Mentions",
+    "legalNotice": "Mentions légales",
+    "privacy": "Confidentialité",
+    "cookies": "Cookies"
+  },
+  "nav": {
+    "main": "Principale",
+    "skip": "Aller au contenu",
+    "menu": "Menu",
+    "close": "Fermer",
+    "projects": "Projets",
+    "services": "Services",
+    "method": "Méthode",
+    "zones": "Secteurs",
+    "journal": "Journal",
+    "contact": "Contact",
+    "about": "À propos"
+  },
+  "notFound": {
+    "title": "Cette page n'existe pas.",
+    "text": "L'adresse a peut-être changé, ou le lien est incomplet.",
+    "back": "Retour à l'accueil"
+  },
+  "projects": {
+    "index": {
+      "title": "Projets de rénovation en Cerdagne",
+      "intro": "Les sept projets de cette page sont conceptuels : ils montrent notre façon de travailler pendant que nous documentons les premiers chantiers livrés. Les images sont générées par IA.",
+      "metaTitle": "Réalisations de rénovation en Cerdagne | Cerdanya Reformes",
+      "metaDescription": "Chalets, maisons en pierre, granges et attiques rénovés en Cerdagne : pièces, matériaux et l'avant-après de chaque projet."
+    },
+    "filter": {
+      "label": "Type de bien",
+      "all": "Tous"
+    },
+    "types": {
+      "chalet": "Chalets",
+      "casa-de-piedra": "Maisons en pierre",
+      "borda": "Granges",
+      "atico": "Attiques"
+    },
+    "scopes": {
+      "reforma-integral": "Rénovation complète",
+      "rehabilitacion": "Réhabilitation",
+      "interiorismo": "Architecture d'intérieur",
+      "cocina-banos": "Cuisine et salles de bains",
+      "wellness": "Bien-être",
+      "eficiencia": "Efficacité énergétique",
+      "llave-en-mano": "Clé en main",
+      "gestion-alquiler": "Gestion locative"
+    },
+    "facts": {
+      "town": "Commune",
+      "surface": "Surface",
+      "duration": "Durée",
+      "scope": "Périmètre"
+    },
+    "months": "{count} mois",
+    "back": "Tous les projets",
+    "materials": "Matériaux",
+    "beforeAfter": {
+      "title": "Avant et après",
+      "before": "Avant",
+      "after": "Après",
+      "slider": "Comparer l'avant et l'après"
+    },
+    "next": "Projet suivant",
+    "conceptNote": "Projet conceptuel. La maison n'existe pas et les images sont générées par IA : il montre notre façon de travailler.",
+    "metaTitle": "{title}, {town} | Cerdanya Reformes"
+  },
+  "servicesPage": {
+    "index": {
+      "title": "Services de rénovation et d'architecture d'intérieur en Cerdagne",
+      "intro": "Vous pouvez nous confier une pièce ou la maison entière. Dans tous les cas, un seul interlocuteur et un compte rendu chaque semaine.",
+      "metaTitle": "Services de rénovation en Cerdagne | Cerdanya Reformes",
+      "metaDescription": "Architecture d'intérieur, cuisines et salles de bains, rénovation complète, maisons en pierre, bien-être, efficacité énergétique, domotique et clé en main en Cerdagne."
+    },
+    "back": "Tous les services",
+    "includes": "Ce qui est compris",
+    "approach": "Notre façon de faire",
+    "faq": "Questions fréquentes",
+    "related": "Projets liés",
+    "others": "Autres services",
+    "metaTitle": "{title} | Cerdanya Reformes"
+  },
+  "townPage": {
+    "houses": "Les maisons d'ici",
+    "note": "Avant de commencer",
+    "project": "Un projet ici",
+    "services": "Ce que nous faisons",
+    "otherTowns": "Autres secteurs",
+    "metaTitle": "{title} | Cerdanya Reformes"
+  },
+  "method": {
+    "metaTitle": "Méthode : rénover à distance en Cerdagne | Cerdanya Reformes",
+    "metaDescription": "Comment nous menons une rénovation en Cerdagne pour des propriétaires à distance : six étapes, un seul interlocuteur et un compte rendu en photos chaque semaine.",
+    "title": "De la première visite aux clés",
+    "intro": "Une rénovation en montagne, suivie de loin, demande de l'ordre. Voici le nôtre : six étapes, un seul interlocuteur et un compte rendu chaque semaine.",
+    "steps": {
+      "0": {
+        "title": "Première visite",
+        "text": "Nous voyons la maison avec vous, ou sans vous si vous nous laissez les clés. Nous mesurons, photographions et écoutons comment vous l'utilisez et ce qui lui manque."
+      },
+      "1": {
+        "title": "Proposition",
+        "text": "Nous vous présentons une idée de distribution et de matériaux, avec une estimation de coût et de délai pour décider de la suite."
+      },
+      "2": {
+        "title": "Projet et devis",
+        "text": "Plans, matériaux choisis sur échantillons et un devis détaillé poste par poste. Nous déposons les demandes d'autorisation en mairie."
+      },
+      "3": {
+        "title": "Chantier",
+        "text": "Nous coordonnons les artisans et les livraisons. Chaque semaine, vous recevez un compte rendu en photos et la suite prévue."
+      },
+      "4": {
+        "title": "Intérieur",
+        "text": "Menuiserie, mobilier, textiles et lumière. Nous montons et installons tout avant la remise des clés."
+      },
+      "5": {
+        "title": "Clés",
+        "text": "Nous livrons la maison propre et prête à vivre. Si vous souhaitez la louer quand vous ne l'occupez pas, Cerdanya Privé peut la gérer."
+      }
+    },
+    "remote": {
+      "title": "À distance",
+      "items": {
+        "0": {
+          "title": "Un seul interlocuteur",
+          "text": "Une personne connaît votre chantier et en répond."
+        },
+        "1": {
+          "title": "Compte rendu hebdomadaire",
+          "text": "Photos, avancement et décisions à prendre, chaque semaine."
+        },
+        "2": {
+          "title": "Décider sans se déplacer",
+          "text": "Visioconférences et échantillons envoyés chez vous. Vous montez quand vous voulez, pas quand il le faut."
+        }
+      }
+    },
+    "pending": "À confirmer avant le lancement : qui exécute les travaux (équipe propre, entreprises locales coordonnées ou architecte associé), pour ajuster ce texte."
+  },
+  "about": {
+    "metaTitle": "À propos | Cerdanya Reformes by Cerdanya Privé",
+    "metaDescription": "Cerdanya Reformes est la marque de rénovation de Cerdanya Privé : nous rénovons des maisons de montagne en Cerdagne avec ce que nous avons appris en les entretenant.",
+    "title": "À propos",
+    "intro": "Cerdanya Reformes est la marque de rénovation de Cerdanya Privé, qui gère des locations de vacances en Cerdagne.",
+    "why": {
+      "title": "Pourquoi nous rénovons",
+      "text": "Veiller sur des maisons chaque semaine apprend comment elles vieillissent : par où entre l'humidité, quel chauffage lâche en février, quels matériaux tiennent. Nous rénovons avec ce que nous avons appris en les entretenant."
+    },
+    "area": {
+      "title": "Des deux côtés de la frontière",
+      "text": "Nous travaillons en Cerdagne française et en Cerdagne espagnole, de Font-Romeu à Bellver de Cerdanya."
+    },
+    "parent": {
+      "title": "Cerdanya Privé",
+      "text": "Si, après la rénovation, vous souhaitez louer la maison quand vous ne l'occupez pas, Cerdanya Privé peut s'en charger.",
+      "link": "Visiter cerdanyaprive.com"
+    },
+    "team": {
+      "title": "L'équipe",
+      "pending": "À confirmer avant le lancement : noms, rôles et portraits de l'équipe."
+    }
+  },
+  "lead": {
+    "fields": {
+      "name": "Nom",
+      "email": "E-mail",
+      "phone": "Téléphone",
+      "whatsapp": "Je préfère WhatsApp",
+      "town": "Commune du bien",
+      "houseType": "Type de bien",
+      "surface": "Surface approximative",
+      "projectType": "Type de projet",
+      "budget": "Budget indicatif",
+      "timing": "Délai",
+      "owner": "Êtes-vous déjà propriétaire ?",
+      "rental": "La gestion locative ensuite m'intéresse",
+      "message": "Message",
+      "optional": "facultatif",
+      "choose": "Choisir",
+      "other": "Autre"
+    },
+    "options": {
+      "houseType": {
+        "chalet": "Chalet",
+        "casa-de-piedra": "Maison en pierre ou maison de maître",
+        "borda": "Grange",
+        "atico": "Attique ou appartement",
+        "otro": "Autre"
+      },
+      "surface": {
+        "lt150": "Moins de 150 m²",
+        "150-300": "150–300 m²",
+        "300-500": "300–500 m²",
+        "gt500": "Plus de 500 m²"
+      },
+      "projectType": {
+        "integral": "Rénovation complète",
+        "parcial": "Rénovation partielle",
+        "interiorismo": "Architecture d'intérieur",
+        "cocina-banos": "Cuisine ou salles de bains",
+        "wellness": "Bien-être",
+        "eficiencia": "Efficacité énergétique"
+      },
+      "budget": {
+        "lt150k": "Moins de 150 000 €",
+        "150-300k": "150 000–300 000 €",
+        "300-600k": "300 000–600 000 €",
+        "gt600k": "Plus de 600 000 €",
+        "unknown": "Je ne sais pas encore"
+      },
+      "timing": {
+        "asap": "Dès que possible",
+        "3-6": "Dans 3 à 6 mois",
+        "6-12": "Dans 6 à 12 mois",
+        "exploring": "Je me renseigne"
+      },
+      "owner": {
+        "yes": "Oui",
+        "buying": "En cours d'achat",
+        "searching": "En recherche"
+      }
+    },
+    "consent": "J'ai lu et j'accepte la <link>politique de confidentialité</link>.",
+    "submit": "Demander une première visite",
+    "sending": "Envoi…",
+    "info": "Responsable : Cerdanya Reformes. Finalité : répondre à votre demande. Base légale : votre consentement. Droits : accès, rectification et effacement. Plus d'informations dans la politique de confidentialité.",
+    "errors": {
+      "summary": "Vérifiez les champs signalés.",
+      "required": "Ce champ est nécessaire.",
+      "email": "Saisissez un e-mail valide, par exemple nom@domaine.fr.",
+      "phone": "Saisissez un numéro avec l'indicatif, par exemple +33 6 00 00 00 00.",
+      "consent": "Nous avons besoin de votre accord pour pouvoir vous répondre.",
+      "rate": "Nous avons reçu plusieurs demandes à la suite. Patientez quelques minutes ou appelez-nous.",
+      "send": "Nous n'avons pas pu envoyer la demande. Appelez-nous ou écrivez-nous sur WhatsApp.",
+      "captcha": "Nous n'avons pas pu vérifier l'envoi. Réessayez."
+    },
+    "success": {
+      "title": "Merci. Nous avons bien reçu votre demande.",
+      "text": "Nous vous appelons sous un jour ouvré pour convenir d'une première visite.",
+      "whatsapp": "Si vous préférez, écrivez-nous sur WhatsApp"
+    }
+  },
+  "contact": {
+    "metaTitle": "Contact | Cerdanya Reformes",
+    "metaDescription": "Demandez une première visite pour rénover votre maison en Cerdagne : formulaire, téléphone ou WhatsApp. Nous vous appelons sous un jour ouvré.",
+    "title": "Parlez-nous de votre maison",
+    "intro": "Remplissez ce que vous savez ; nous verrons le reste ensemble. Nous vous appelons sous un jour ouvré pour convenir d'une première visite.",
+    "call": "Ou appelez-nous"
+  },
+  "consentBanner": {
+    "label": "Cookies",
+    "text": "Nous utilisons des cookies de mesure uniquement si vous les acceptez. Le site fonctionne de la même façon sans eux.",
+    "accept": "Accepter",
+    "reject": "Refuser",
+    "more": "Politique de cookies"
+  },
+  "journal": {
+    "title": "Journal : rénover en Cerdagne",
+    "intro": "Notes pratiques pour rénover et entretenir une maison de montagne.",
+    "metaTitle": "Journal : rénover une maison en Cerdagne | Cerdanya Reformes",
+    "metaDescription": "Articles pratiques sur la rénovation en Cerdagne : saisons de chantier, chauffage en montagne et rénover une maison pour la louer.",
+    "back": "Tous les articles",
+    "published": "Publié le {date}",
+    "metaArticle": "{title} | Cerdanya Reformes"
+  },
+  "legal": {
+    "pending": "Brouillon en attente de relecture juridique. Il manque les données de l'entité (dénomination, numéro d'identification, siège et registre) et la validation d'un conseil avant le lancement.",
+    "metaTitle": "{title} | Cerdanya Reformes",
+    "notice": {
+      "title": "Mentions légales",
+      "sections": {
+        "0": {
+          "title": "Éditeur du site",
+          "text": "Ce site appartient à Cerdanya Reformes, marque de Cerdanya Privé. Les données d'identification de l'entité seront ajoutées ici avant le lancement."
+        },
+        "1": {
+          "title": "Contact",
+          "text": "Téléphone et WhatsApp : +34 625 01 43 88."
+        },
+        "2": {
+          "title": "Projets et images",
+          "text": "Les projets présentés actuellement sont conceptuels et leurs images sont générées par intelligence artificielle. Ils ne représentent ni des maisons ni des clients réels, ce qui est indiqué sur chacun."
+        },
+        "3": {
+          "title": "Propriété intellectuelle",
+          "text": "Les textes, le design et les images du site appartiennent à son éditeur. Ils ne peuvent pas être réutilisés sans autorisation."
+        },
+        "4": {
+          "title": "Responsabilité",
+          "text": "Les informations du site sont indicatives et ne constituent ni une offre ni un devis. Chaque rénovation fait l'objet d'un projet et d'un devis propres."
+        }
+      }
+    },
+    "privacy": {
+      "title": "Politique de confidentialité",
+      "sections": {
+        "0": {
+          "title": "Responsable",
+          "text": "Cerdanya Reformes, marque de Cerdanya Privé. Les données de l'entité responsable seront ajoutées ici avant le lancement."
+        },
+        "1": {
+          "title": "Données traitées",
+          "text": "Celles que vous nous envoyez par le formulaire : nom, e-mail, téléphone, informations sur le bien et le projet, et votre message. S'y ajoutent la langue, la page depuis laquelle vous écrivez et, si vous venez d'une annonce, les paramètres de la campagne."
+        },
+        "2": {
+          "title": "Finalité",
+          "text": "Répondre à votre demande et préparer une première visite. Nous n'envoyons pas de lettre d'information."
+        },
+        "3": {
+          "title": "Base légale",
+          "text": "Votre consentement, donné en cochant la case du formulaire, et que vous pouvez retirer à tout moment."
+        },
+        "4": {
+          "title": "Destinataires",
+          "text": "Notre équipe et les prestataires qui font fonctionner le site : hébergement, envoi d'e-mails et protection contre les envois automatiques. Si vous indiquez un intérêt pour la gestion locative, nous partageons votre demande avec Cerdanya Privé."
+        },
+        "5": {
+          "title": "Durée",
+          "text": "La durée de conservation sera indiquée ici avant le lancement."
+        },
+        "6": {
+          "title": "Vos droits",
+          "text": "Vous pouvez demander l'accès, la rectification, l'effacement, la limitation, l'opposition et la portabilité de vos données, et saisir l'autorité de protection des données compétente."
+        }
+      }
+    },
+    "cookies": {
+      "title": "Politique de cookies",
+      "sections": {
+        "0": {
+          "title": "Sans votre accord, presque rien",
+          "text": "Le site fonctionne sans cookies de mesure ni de publicité. Nous utilisons seulement un cookie technique pour retenir la langue choisie."
+        },
+        "1": {
+          "title": "Votre choix sur la mesure",
+          "text": "Si la mesure est active, nous vous posons la question une fois. Votre réponse est conservée dans votre navigateur et n'est envoyée à personne."
+        },
+        "2": {
+          "title": "Si vous acceptez",
+          "text": "Google Analytics et, le cas échéant, la mesure des conversions Google Ads sont chargés ; ils déposent des cookies comme _ga pour compter les visites et les demandes."
+        },
+        "3": {
+          "title": "Changer d'avis",
+          "text": "Effacez les données de ce site dans votre navigateur et la question réapparaîtra."
+        },
+        "4": {
+          "title": "Formulaire",
+          "text": "Pour protéger le formulaire contre les envois automatiques, Cloudflare Turnstile peut être utilisé ; il ne nécessite pas de cookies publicitaires."
+        }
+      }
+    }
+  }
+}
