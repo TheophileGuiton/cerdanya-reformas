@@ -16,7 +16,7 @@ export async function Footer() {
   const locale = (await getLocale()) as Locale;
 
   return (
-    <footer className="mt-auto border-t border-granite pt-20 pb-24 lg:pt-24">
+    <footer className="mt-auto pt-20 pb-24 lg:pt-24">
       <div className="wrap">
         <p className="max-w-[18ch] font-display text-display-l text-balance">
           {t("footer.statement")}

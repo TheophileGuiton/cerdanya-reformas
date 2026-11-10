@@ -18,7 +18,103 @@
     "headline": "La sala, el foc i el Cadí a la finestra.",
     "intro": "Reformem l'interior de xalets i cases de pedra: mur de granit a la vista, làrix, roure i llana, amb mobles fets a mida. Ens ocupem de tot, encara que sigueu a Barcelona.",
     "heroAlt": "Sala de la Casa Pairal Alp amb la llar de foc de ferro encesa, sofàs de lli i un finestral a la serra del Cadí",
-    "heroCaption": "Casa Pairal Alp, la sala amb el foc encès"
+    "heroCaption": "Casa Pairal Alp, la sala amb el foc encès",
+    "why": {
+      "title": "Cuidem cases com la vostra cada setmana.",
+      "items": {
+        "0": {
+          "title": "Ja coneixem aquestes cases",
+          "text": "Cerdanya Privé gestiona xalets a la vall cada setmana. Sabem com envelleix una casa de muntanya amb la gelada, la neu i la humitat."
+        },
+        "1": {
+          "title": "Un sol interlocutor",
+          "text": "Permisos, arquitecte, oficis, mobles, neteja i claus. Cada setmana rebeu un informe amb fotos. No cal pujar."
+        },
+        "2": {
+          "title": "Per viure-hi i per llogar-la",
+          "text": "Si després la voleu llogar, Cerdanya Privé se'n pot ocupar. Dissenyem pensant-hi: materials que duren i lloc per desar."
+        }
+      }
+    },
+    "materials": {
+      "title": "Sis materials, sempre a la vista",
+      "text": "Una casa ceretana es reconeix pel que es toca. Treballem amb pocs materials i no els amaguem.",
+      "items": {
+        "0": {
+          "name": "Granit",
+          "use": "Els murs que ja hi són. Es netegen i es rejunten amb calç."
+        },
+        "1": {
+          "name": "Làrix",
+          "use": "Finestres, galeries i revestiments."
+        },
+        "2": {
+          "name": "Roure",
+          "use": "Terres, taules i fusteria a mida."
+        },
+        "3": {
+          "name": "Ferro ennegrit",
+          "use": "Llars de foc, escales i tiradors."
+        },
+        "4": {
+          "name": "Llana",
+          "use": "Catifes, mantes i tapisseries."
+        },
+        "5": {
+          "name": "Calç",
+          "use": "Arrebossats que deixen respirar el mur."
+        }
+      }
+    },
+    "rooms": {
+      "title": "Estances",
+      "all": "Veure els set projectes",
+      "items": {
+        "0": {
+          "title": "La cuina de la Casa Pairal Alp",
+          "text": "Illa llarga de roure, fronts d'acer fosc i bigues antigues."
+        },
+        "1": {
+          "title": "La sala de la Borda de Meranges",
+          "text": "Encavallades originals, altell de làrix i estufa de llenya."
+        },
+        "2": {
+          "title": "La llibreria de l'Àtic Llac",
+          "text": "Paret de roure a mida, de terra a sostre."
+        }
+      }
+    },
+    "services": {
+      "title": "El que fem",
+      "text": "Ens podeu encarregar una estança o la casa sencera."
+    },
+    "method": {
+      "title": "De la primera visita a les claus",
+      "link": "Com treballem",
+      "steps": {
+        "0": {
+          "title": "Primera visita",
+          "text": "Veiem la casa amb vosaltres, o sense vosaltres si ens deixeu les claus, i escoltem què necessiteu."
+        },
+        "1": {
+          "title": "Projecte i pressupost",
+          "text": "Plànols, materials i un pressupost detallat per partides abans de començar."
+        },
+        "2": {
+          "title": "Obra",
+          "text": "Coordinem permisos i oficis. Cada setmana, un informe amb fotos."
+        },
+        "3": {
+          "title": "Claus",
+          "text": "Lliurem la casa moblada i neta. Si voleu, Cerdanya Privé la gestiona en lloguer."
+        }
+      }
+    },
+    "contact": {
+      "title": "Expliqueu-nos casa vostra",
+      "text": "Us truquem en un dia laborable per acordar una primera visita.",
+      "cta": "Demanar una primera visita"
+    }
   },
   "image": {
     "aiCredit": "Imatge generada amb IA",

@@ -18,7 +18,103 @@
     "headline": "Le salon, le feu et le Cadí à la fenêtre.",
     "intro": "Nous rénovons l'intérieur des chalets et des maisons en pierre : mur de granit apparent, mélèze, chêne et laine, avec du mobilier sur mesure. Nous nous occupons de tout, même si vous êtes à Toulouse ou à Paris.",
     "heroAlt": "Salon de la Casa Pairal Alp avec la cheminée en fer allumée, des canapés en lin et une baie vitrée sur la sierra del Cadí",
-    "heroCaption": "Casa Pairal Alp, le salon avec le feu allumé"
+    "heroCaption": "Casa Pairal Alp, le salon avec le feu allumé",
+    "why": {
+      "title": "Nous veillons chaque semaine sur des maisons comme la vôtre.",
+      "items": {
+        "0": {
+          "title": "Nous connaissons déjà ces maisons",
+          "text": "Cerdanya Privé gère des chalets dans la vallée chaque semaine. Nous savons comment vieillit une maison de montagne avec le gel, la neige et l'humidité."
+        },
+        "1": {
+          "title": "Un seul interlocuteur",
+          "text": "Autorisations, architecte, artisans, mobilier, ménage et clés. Chaque semaine, vous recevez un compte rendu en photos. Inutile de monter."
+        },
+        "2": {
+          "title": "Pour y vivre et pour la louer",
+          "text": "Si vous souhaitez ensuite la louer, Cerdanya Privé peut s'en charger. Nous concevons en y pensant : des matériaux qui durent et de la place pour ranger."
+        }
+      }
+    },
+    "materials": {
+      "title": "Six matériaux, toujours apparents",
+      "text": "Une maison cerdane se reconnaît à ce que l'on touche. Nous travaillons avec peu de matériaux et nous ne les cachons pas.",
+      "items": {
+        "0": {
+          "name": "Granit",
+          "use": "Les murs déjà là. Nettoyés et rejointoyés à la chaux."
+        },
+        "1": {
+          "name": "Mélèze",
+          "use": "Fenêtres, galeries et bardages."
+        },
+        "2": {
+          "name": "Chêne",
+          "use": "Sols, tables et menuiserie sur mesure."
+        },
+        "3": {
+          "name": "Fer noirci",
+          "use": "Cheminées, escaliers et poignées."
+        },
+        "4": {
+          "name": "Laine",
+          "use": "Tapis, plaids et assises."
+        },
+        "5": {
+          "name": "Chaux",
+          "use": "Des enduits qui laissent respirer le mur."
+        }
+      }
+    },
+    "rooms": {
+      "title": "Pièces",
+      "all": "Voir les sept projets",
+      "items": {
+        "0": {
+          "title": "La cuisine de la Casa Pairal Alp",
+          "text": "Long îlot en chêne, façades en acier sombre et poutres anciennes."
+        },
+        "1": {
+          "title": "Le séjour de la Borda de Meranges",
+          "text": "Charpente d'origine, mezzanine en mélèze et poêle à bois."
+        },
+        "2": {
+          "title": "La bibliothèque de l'Àtic Llac",
+          "text": "Mur en chêne sur mesure, du sol au plafond."
+        }
+      }
+    },
+    "services": {
+      "title": "Ce que nous faisons",
+      "text": "Vous pouvez nous confier une pièce ou la maison entière."
+    },
+    "method": {
+      "title": "De la première visite aux clés",
+      "link": "Notre méthode",
+      "steps": {
+        "0": {
+          "title": "Première visite",
+          "text": "Nous voyons la maison avec vous, ou sans vous si vous nous laissez les clés, et nous écoutons vos besoins."
+        },
+        "1": {
+          "title": "Projet et devis",
+          "text": "Plans, matériaux et un devis détaillé poste par poste avant de commencer."
+        },
+        "2": {
+          "title": "Chantier",
+          "text": "Nous coordonnons autorisations et artisans. Chaque semaine, un compte rendu en photos."
+        },
+        "3": {
+          "title": "Clés",
+          "text": "Nous livrons la maison meublée et propre. Si vous le souhaitez, Cerdanya Privé la gère en location."
+        }
+      }
+    },
+    "contact": {
+      "title": "Parlez-nous de votre maison",
+      "text": "Nous vous appelons sous un jour ouvré pour convenir d'une première visite.",
+      "cta": "Demander une première visite"
+    }
   },
   "image": {
     "aiCredit": "Image générée par IA",

@@ -18,7 +18,103 @@
     "headline": "La sala, el fuego y el Cadí en la ventana.",
     "intro": "Reformamos el interior de chalets y casas de piedra: muro de granito a la vista, alerce, roble y lana, con muebles hechos a medida. Nos ocupamos de todo, aunque usted esté en Barcelona.",
     "heroAlt": "Sala de Casa Pairal Alp con la chimenea de hierro encendida, sofás de lino y un ventanal a la sierra del Cadí",
-    "heroCaption": "Casa Pairal Alp, la sala con el fuego encendido"
+    "heroCaption": "Casa Pairal Alp, la sala con el fuego encendido",
+    "why": {
+      "title": "Cuidamos casas como la suya cada semana.",
+      "items": {
+        "0": {
+          "title": "Ya conocemos estas casas",
+          "text": "Cerdanya Privé gestiona chalets en el valle cada semana. Sabemos cómo envejece una casa de montaña con la helada, la nieve y la humedad."
+        },
+        "1": {
+          "title": "Un solo interlocutor",
+          "text": "Permisos, arquitecto, oficios, muebles, limpieza y llaves. Cada semana recibe un informe con fotos. No hace falta subir."
+        },
+        "2": {
+          "title": "Para vivirla y para alquilarla",
+          "text": "Si después quiere alquilarla, Cerdanya Privé puede ocuparse. Diseñamos con eso en mente: materiales que duran y sitio para guardar."
+        }
+      }
+    },
+    "materials": {
+      "title": "Seis materiales, siempre a la vista",
+      "text": "Una casa ceretana se reconoce por lo que se toca. Trabajamos con pocos materiales y no los escondemos.",
+      "items": {
+        "0": {
+          "name": "Granito",
+          "use": "Los muros que ya están. Se limpian y se rejuntan con cal."
+        },
+        "1": {
+          "name": "Alerce",
+          "use": "Ventanas, galerías y revestimientos."
+        },
+        "2": {
+          "name": "Roble",
+          "use": "Suelos, mesas y carpintería a medida."
+        },
+        "3": {
+          "name": "Hierro ennegrecido",
+          "use": "Chimeneas, escaleras y tiradores."
+        },
+        "4": {
+          "name": "Lana",
+          "use": "Alfombras, mantas y tapicerías."
+        },
+        "5": {
+          "name": "Cal",
+          "use": "Revocos que dejan respirar el muro."
+        }
+      }
+    },
+    "rooms": {
+      "title": "Estancias",
+      "all": "Ver los siete proyectos",
+      "items": {
+        "0": {
+          "title": "La cocina de Casa Pairal Alp",
+          "text": "Isla larga de roble, frentes de acero oscuro y vigas antiguas."
+        },
+        "1": {
+          "title": "La sala de la Borda de Meranges",
+          "text": "Cerchas originales, altillo de alerce y estufa de leña."
+        },
+        "2": {
+          "title": "La librería del Àtic Llac",
+          "text": "Pared de roble a medida, de suelo a techo."
+        }
+      }
+    },
+    "services": {
+      "title": "Lo que hacemos",
+      "text": "Puede encargarnos una estancia o la casa entera."
+    },
+    "method": {
+      "title": "De la primera visita a las llaves",
+      "link": "Cómo trabajamos",
+      "steps": {
+        "0": {
+          "title": "Primera visita",
+          "text": "Vemos la casa con usted, o sin usted si nos deja las llaves, y escuchamos qué necesita."
+        },
+        "1": {
+          "title": "Proyecto y presupuesto",
+          "text": "Planos, materiales y un presupuesto detallado por partidas antes de empezar."
+        },
+        "2": {
+          "title": "Obra",
+          "text": "Coordinamos permisos y oficios. Cada semana, un informe con fotos."
+        },
+        "3": {
+          "title": "Llaves",
+          "text": "Entregamos la casa amueblada y limpia. Si quiere, Cerdanya Privé la gestiona en alquiler."
+        }
+      }
+    },
+    "contact": {
+      "title": "Cuéntenos su casa",
+      "text": "Le llamamos en un día laborable para acordar una primera visita.",
+      "cta": "Pedir una primera visita"
+    }
   },
   "image": {
     "aiCredit": "Imagen generada con IA",

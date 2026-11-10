@@ -39,7 +39,7 @@ export async function ProjectImage({
         alt={alt}
         tone={tone}
         className={className}
-        label={`${credit} · ${t("pending", { file: `${slug}/${name}.jpg` })}`}
+        label={t("pending", { file: `${slug}/${name}.jpg` })}
       />
     );
   }

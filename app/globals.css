@@ -110,6 +110,10 @@
     outline: 2px solid var(--color-loden);
     outline-offset: 4px;
   }
+  p,
+  li {
+    text-wrap: pretty;
+  }
   ::selection {
     background: var(--color-loden);
     color: var(--color-lime);
