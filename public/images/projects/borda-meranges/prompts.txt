@@ -1,0 +1,7 @@
+Generated with Canva AI image generation on 2026-11-10 (no seed available).
+Prompt = line below + style block + negative list from content-seed/image-prompts.md.
+
+living.jpg   4:5  1920x2400  Canva media MAHaiRurqvE
+  Double-height interior of a converted barn, original timber trusses, timber mezzanine for bedrooms, cast-iron wood stove, wool throws
+
+Not generated yet (Canva credit quota reached): hero, cover, mezzanine, detail, before-1, before-2, before-3.
