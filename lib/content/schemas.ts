@@ -88,3 +88,16 @@ export const servicePageSchema = z.object({
 });
 
 export type ServicePage = z.infer<typeof servicePageSchema>;
+
+export const townPageSchema = z.object({
+  /** Page heading with the town keyword from SEO.md. */
+  h1: z.string().min(1),
+  description: z.string().min(1),
+  intro: z.string().min(1),
+  /** The kinds of houses typical of the town and what they usually need. */
+  houses: z.array(z.object({ title: z.string().min(1), text: z.string().min(1) })).min(1),
+  /** General guidance on permits and local rules; never a specific rule. */
+  note: z.string().min(1),
+});
+
+export type TownPage = z.infer<typeof townPageSchema>;

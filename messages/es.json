@@ -213,5 +213,13 @@
     "related": "Proyectos relacionados",
     "others": "Otros servicios",
     "metaTitle": "{title} | Cerdanya Reformes"
+  },
+  "townPage": {
+    "houses": "Las casas de aquí",
+    "note": "Antes de empezar",
+    "project": "Un proyecto aquí",
+    "services": "Lo que hacemos",
+    "otherTowns": "Otras zonas",
+    "metaTitle": "{title} | Cerdanya Reformes"
   }
 }
