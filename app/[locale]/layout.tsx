@@ -14,10 +14,12 @@ import { routing } from "@/i18n/routing";
 import { siteUrl } from "@/lib/seo/site";
 import "../globals.css";
 
+// Only the "latin" files are preloaded; they cover Spanish, Catalan and French
+// (à è é í ò ó ú ç ï ü œ ·). Other ranges still load on demand.
 const caslonDisplay = Libre_Caslon_Display({
   variable: "--font-caslon-display",
   weight: "400",
-  subsets: ["latin", "latin-ext"],
+  subsets: ["latin"],
   display: "swap",
 });
 
@@ -25,13 +27,15 @@ const caslonText = Libre_Caslon_Text({
   variable: "--font-caslon-text",
   weight: "400",
   style: ["normal", "italic"],
-  subsets: ["latin", "latin-ext"],
+  subsets: ["latin"],
+  // Used for small serif text further down the page: not worth a preload.
+  preload: false,
   display: "swap",
 });
 
 const grotesk = Schibsted_Grotesk({
   variable: "--font-grotesk",
-  subsets: ["latin", "latin-ext"],
+  subsets: ["latin"],
   display: "swap",
 });
 
