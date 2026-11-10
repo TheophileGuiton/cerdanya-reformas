@@ -1,45 +1,48 @@
 import { getTranslations } from "next-intl/server";
-import { Link } from "@/i18n/navigation";
+import { LeadForm } from "./LeadForm";
 
 const phone = process.env.NEXT_PUBLIC_PHONE ?? "+34 625 01 43 88";
 const whatsapp = process.env.NEXT_PUBLIC_WHATSAPP_NUMBER ?? "34625014388";
 
-// Closing band on walnut. The short lead form replaces the right-hand column
-// in the lead-form phase; until then it offers the three ways to reach us.
-export async function ContactBand() {
+type Props = {
+  /** The short form closes most pages; the Contact page uses the full one. */
+  variant?: "short" | "full";
+  /** Heading level: h1 on the Contact page, h2 everywhere else. */
+  heading?: "h1" | "h2";
+  title?: string;
+  text?: string;
+};
+
+// Closing band on walnut: how to reach us on the left, the lead form on the right.
+export async function ContactBand({ variant = "short", heading: Heading = "h2", title, text }: Props) {
   const t = await getTranslations();
 
   return (
     <section aria-labelledby="contact-title" className="on-dark bg-walnut py-section text-lime">
-      <div className="wrap grid gap-10 md:grid-cols-[5fr_7fr] md:gap-18">
+      <div className="wrap grid gap-12 md:grid-cols-[5fr_7fr] md:gap-18">
         <div>
-          <h2 id="contact-title" className="font-display text-display-l">
-            {t("home.contact.title")}
-          </h2>
-          <p className="mt-5 max-w-[34ch] text-fleece">{t("home.contact.text")}</p>
-        </div>
-        <div className="flex flex-col items-start gap-6 md:justify-end">
+          <Heading
+            id="contact-title"
+            className={`font-display ${Heading === "h1" ? "text-display-xl" : "text-display-l"}`}
+          >
+            {title ?? t("home.contact.title")}
+          </Heading>
+          <p className="mt-5 max-w-[36ch] text-fleece">{text ?? t("home.contact.text")}</p>
+          <p className="mt-10 text-note font-medium text-fleece">{t("contact.call")}</p>
           <a
             href={`tel:${phone.replace(/\s/g, "")}`}
-            className="font-serif text-[1.875rem] leading-none tabular-nums no-underline"
+            className="mt-2 block font-serif text-[1.875rem] leading-none tabular-nums no-underline"
           >
             {phone}
           </a>
-          <p className="flex flex-wrap gap-x-8 gap-y-4">
-            <Link
-              href="/contacto"
-              className="inline-flex h-14 items-center rounded-sm bg-lime px-8 font-semibold text-walnut no-underline"
-            >
-              {t("home.contact.cta")}
-            </Link>
-            <a
-              href={`https://wa.me/${whatsapp}`}
-              className="self-center border-b-2 border-lime pb-1.5 font-semibold no-underline"
-            >
-              {t("whatsapp.label")}
-            </a>
-          </p>
+          <a
+            href={`https://wa.me/${whatsapp}`}
+            className="mt-6 inline-block border-b-2 border-lime pb-1.5 font-semibold no-underline"
+          >
+            {t("whatsapp.label")}
+          </a>
         </div>
+        <LeadForm variant={variant} />
       </div>
     </section>
   );

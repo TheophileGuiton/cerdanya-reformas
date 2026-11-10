@@ -295,5 +295,99 @@
       "title": "L'equip",
       "pending": "Pendent abans del llançament: noms, funcions i retrats de l'equip."
     }
+  },
+  "lead": {
+    "fields": {
+      "name": "Nom",
+      "email": "Correu electrònic",
+      "phone": "Telèfon",
+      "whatsapp": "Prefereixo WhatsApp",
+      "town": "Municipi de l'habitatge",
+      "houseType": "Tipus d'habitatge",
+      "surface": "Superfície aproximada",
+      "projectType": "Tipus de projecte",
+      "budget": "Pressupost orientatiu",
+      "timing": "Termini",
+      "owner": "Ja en sou propietaris?",
+      "rental": "M'interessa la gestió del lloguer després",
+      "message": "Missatge",
+      "optional": "opcional",
+      "choose": "Tria",
+      "other": "Un altre"
+    },
+    "options": {
+      "houseType": {
+        "chalet": "Xalet",
+        "casa-de-piedra": "Casa de pedra o casa pairal",
+        "borda": "Borda",
+        "atico": "Àtic o apartament",
+        "otro": "Un altre"
+      },
+      "surface": {
+        "lt150": "Menys de 150 m²",
+        "150-300": "150–300 m²",
+        "300-500": "300–500 m²",
+        "gt500": "Més de 500 m²"
+      },
+      "projectType": {
+        "integral": "Reforma integral",
+        "parcial": "Reforma parcial",
+        "interiorismo": "Interiorisme",
+        "cocina-banos": "Cuina o banys",
+        "wellness": "Wellness",
+        "eficiencia": "Eficiència energètica"
+      },
+      "budget": {
+        "lt150k": "Menys de 150.000 €",
+        "150-300k": "150.000–300.000 €",
+        "300-600k": "300.000–600.000 €",
+        "gt600k": "Més de 600.000 €",
+        "unknown": "Encara no ho sé"
+      },
+      "timing": {
+        "asap": "Com més aviat millor",
+        "3-6": "D'aquí a 3–6 mesos",
+        "6-12": "D'aquí a 6–12 mesos",
+        "exploring": "Només explorant"
+      },
+      "owner": {
+        "yes": "Sí",
+        "buying": "En procés de compra",
+        "searching": "Encara busquem"
+      }
+    },
+    "consent": "He llegit i accepto la <link>política de privacitat</link>.",
+    "submit": "Demanar una primera visita",
+    "sending": "Enviant…",
+    "info": "Responsable: Cerdanya Reformes. Finalitat: respondre a la vostra sol·licitud. Legitimació: el vostre consentiment. Drets: accés, rectificació i supressió. Més informació a la política de privacitat.",
+    "errors": {
+      "summary": "Reviseu els camps marcats.",
+      "required": "Aquest camp és necessari.",
+      "email": "Escriviu un correu vàlid, per exemple nom@domini.com.",
+      "phone": "Escriviu un telèfon amb prefix, per exemple +34 600 000 000.",
+      "consent": "Necessitem la vostra acceptació per poder-vos respondre.",
+      "rate": "Hem rebut diverses sol·licituds seguides. Espereu uns minuts o truqueu-nos.",
+      "send": "No hem pogut enviar la sol·licitud. Truqueu-nos o escriviu-nos per WhatsApp.",
+      "captcha": "No hem pogut verificar l'enviament. Torneu-ho a provar."
+    },
+    "success": {
+      "title": "Gràcies. Hem rebut la vostra sol·licitud.",
+      "text": "Us truquem en un dia laborable per acordar una primera visita.",
+      "whatsapp": "Si ho preferiu, escriviu-nos per WhatsApp"
+    }
+  },
+  "contact": {
+    "metaTitle": "Contacte | Cerdanya Reformes",
+    "metaDescription": "Demaneu una primera visita per reformar casa vostra a la Cerdanya: formulari, telèfon o WhatsApp. Us truquem en un dia laborable.",
+    "title": "Expliqueu-nos casa vostra",
+    "intro": "Ompliu el que sapigueu; la resta la veiem junts. Us truquem en un dia laborable per acordar una primera visita.",
+    "call": "O truqueu-nos"
+  },
+  "consentBanner": {
+    "label": "Galetes",
+    "text": "Fem servir galetes de mesura només si les accepteu. El lloc funciona igual sense.",
+    "accept": "Acceptar",
+    "reject": "Rebutjar",
+    "more": "Política de galetes"
   }
 }

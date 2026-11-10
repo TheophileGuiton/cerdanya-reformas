@@ -6,6 +6,8 @@ import {
 } from "next/font/google";
 import { NextIntlClientProvider } from "next-intl";
 import { getLocale, getTranslations } from "next-intl/server";
+import { Analytics } from "@/components/Analytics";
+import { ConsentBanner } from "@/components/ConsentBanner";
 import { LenisProvider } from "@/components/motion/LenisProvider";
 import { WhatsAppButton } from "@/components/WhatsAppButton";
 import { routing } from "@/i18n/routing";
@@ -61,6 +63,8 @@ export default async function LocaleLayout({
         <NextIntlClientProvider>
           <LenisProvider>{children}</LenisProvider>
           <WhatsAppButton />
+          <ConsentBanner />
+          <Analytics />
         </NextIntlClientProvider>
       </body>
     </html>

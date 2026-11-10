@@ -295,5 +295,99 @@
       "title": "El equipo",
       "pending": "Pendiente antes del lanzamiento: nombres, funciones y retratos del equipo."
     }
+  },
+  "lead": {
+    "fields": {
+      "name": "Nombre",
+      "email": "Email",
+      "phone": "Teléfono",
+      "whatsapp": "Prefiero WhatsApp",
+      "town": "Municipio de la vivienda",
+      "houseType": "Tipo de vivienda",
+      "surface": "Superficie aproximada",
+      "projectType": "Tipo de proyecto",
+      "budget": "Presupuesto orientativo",
+      "timing": "Plazo",
+      "owner": "¿Ya es propietario?",
+      "rental": "Me interesa la gestión del alquiler después",
+      "message": "Mensaje",
+      "optional": "opcional",
+      "choose": "Elegir",
+      "other": "Otro"
+    },
+    "options": {
+      "houseType": {
+        "chalet": "Chalet",
+        "casa-de-piedra": "Casa de piedra o casa pairal",
+        "borda": "Borda",
+        "atico": "Ático o apartamento",
+        "otro": "Otro"
+      },
+      "surface": {
+        "lt150": "Menos de 150 m²",
+        "150-300": "150–300 m²",
+        "300-500": "300–500 m²",
+        "gt500": "Más de 500 m²"
+      },
+      "projectType": {
+        "integral": "Reforma integral",
+        "parcial": "Reforma parcial",
+        "interiorismo": "Interiorismo",
+        "cocina-banos": "Cocina o baños",
+        "wellness": "Wellness",
+        "eficiencia": "Eficiencia energética"
+      },
+      "budget": {
+        "lt150k": "Menos de 150.000 €",
+        "150-300k": "150.000–300.000 €",
+        "300-600k": "300.000–600.000 €",
+        "gt600k": "Más de 600.000 €",
+        "unknown": "Aún no lo sé"
+      },
+      "timing": {
+        "asap": "Lo antes posible",
+        "3-6": "En 3–6 meses",
+        "6-12": "En 6–12 meses",
+        "exploring": "Solo explorando"
+      },
+      "owner": {
+        "yes": "Sí",
+        "buying": "En proceso de compra",
+        "searching": "Aún buscando"
+      }
+    },
+    "consent": "He leído y acepto la <link>política de privacidad</link>.",
+    "submit": "Pedir una primera visita",
+    "sending": "Enviando…",
+    "info": "Responsable: Cerdanya Reformes. Finalidad: responder a su solicitud. Legitimación: su consentimiento. Derechos: acceso, rectificación y supresión. Más información en la política de privacidad.",
+    "errors": {
+      "summary": "Revise los campos marcados.",
+      "required": "Este campo es necesario.",
+      "email": "Escriba un email válido, por ejemplo nombre@dominio.com.",
+      "phone": "Escriba un teléfono con prefijo, por ejemplo +34 600 000 000.",
+      "consent": "Necesitamos su aceptación para poder responderle.",
+      "rate": "Hemos recibido varias solicitudes seguidas. Espere unos minutos o llámenos.",
+      "send": "No hemos podido enviar la solicitud. Llámenos o escríbanos por WhatsApp.",
+      "captcha": "No hemos podido verificar el envío. Vuelva a intentarlo."
+    },
+    "success": {
+      "title": "Gracias. Hemos recibido su solicitud.",
+      "text": "Le llamamos en un día laborable para acordar una primera visita.",
+      "whatsapp": "Si lo prefiere, escríbanos por WhatsApp"
+    }
+  },
+  "contact": {
+    "metaTitle": "Contacto | Cerdanya Reformes",
+    "metaDescription": "Pida una primera visita para reformar su casa en la Cerdanya: formulario, teléfono o WhatsApp. Le llamamos en un día laborable.",
+    "title": "Cuéntenos su casa",
+    "intro": "Rellene lo que sepa; lo demás lo vemos juntos. Le llamamos en un día laborable para acordar una primera visita.",
+    "call": "O llámenos"
+  },
+  "consentBanner": {
+    "label": "Cookies",
+    "text": "Usamos cookies de medición solo si las acepta. El sitio funciona igual sin ellas.",
+    "accept": "Aceptar",
+    "reject": "Rechazar",
+    "more": "Política de cookies"
   }
 }
