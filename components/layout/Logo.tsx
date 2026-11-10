@@ -8,12 +8,12 @@ export async function Logo() {
     <Link
       href="/"
       aria-label={t("home")}
-      className="flex items-baseline gap-3 no-underline"
+      className="flex shrink-0 items-baseline gap-3 whitespace-nowrap no-underline"
     >
-      <span className="font-display text-[1.375rem] leading-none md:text-[1.6875rem]">
+      <span className="font-display text-[1.25rem] leading-none lg:text-[1.6875rem]">
         Cerdanya Reformes
       </span>
-      <span className="hidden text-note leading-none text-bark md:inline">
+      <span className="hidden text-note leading-none text-bark xl:inline">
         {t("endorsement")}
       </span>
     </Link>

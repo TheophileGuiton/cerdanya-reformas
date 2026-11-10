@@ -31,6 +31,30 @@
   },
   "footer": {
     "statement": "Casas de montaña, hechas para durar.",
-    "parent": "Gestión de alquiler vacacional en la Cerdanya"
+    "parent": "Gestión de alquiler vacacional en la Cerdanya",
+    "contact": "Contacto",
+    "zones": "Zonas",
+    "services": "Servicios",
+    "legal": "Legal",
+    "legalNotice": "Aviso legal",
+    "privacy": "Privacidad",
+    "cookies": "Cookies"
+  },
+  "nav": {
+    "main": "Principal",
+    "skip": "Saltar al contenido",
+    "menu": "Menú",
+    "close": "Cerrar",
+    "projects": "Proyectos",
+    "services": "Servicios",
+    "method": "Método",
+    "zones": "Zonas",
+    "journal": "Journal",
+    "contact": "Contacto"
+  },
+  "notFound": {
+    "title": "Esta página no existe.",
+    "text": "Puede que la dirección haya cambiado o que el enlace esté incompleto.",
+    "back": "Volver al inicio"
   }
 }

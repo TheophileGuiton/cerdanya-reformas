@@ -31,6 +31,30 @@
   },
   "footer": {
     "statement": "Cases de muntanya, fetes per durar.",
-    "parent": "Gestió de lloguer de vacances a la Cerdanya"
+    "parent": "Gestió de lloguer de vacances a la Cerdanya",
+    "contact": "Contacte",
+    "zones": "Zones",
+    "services": "Serveis",
+    "legal": "Legal",
+    "legalNotice": "Avís legal",
+    "privacy": "Privacitat",
+    "cookies": "Galetes"
+  },
+  "nav": {
+    "main": "Principal",
+    "skip": "Salta al contingut",
+    "menu": "Menú",
+    "close": "Tanca",
+    "projects": "Projectes",
+    "services": "Serveis",
+    "method": "Mètode",
+    "zones": "Zones",
+    "journal": "Journal",
+    "contact": "Contacte"
+  },
+  "notFound": {
+    "title": "Aquesta pàgina no existeix.",
+    "text": "Pot ser que l'adreça hagi canviat o que l'enllaç sigui incomplet.",
+    "back": "Torna a l'inici"
   }
 }

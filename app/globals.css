@@ -110,6 +110,14 @@
     outline: 2px solid var(--color-loden);
     outline-offset: 4px;
   }
+  ::selection {
+    background: var(--color-loden);
+    color: var(--color-lime);
+  }
+  input,
+  textarea {
+    caret-color: var(--color-loden);
+  }
   .on-dark :focus-visible {
     outline-color: var(--color-lime);
   }
@@ -139,4 +147,9 @@
     transition-duration: 0.01ms !important;
     scroll-behavior: auto !important;
   }
+}
+
+/* The floating WhatsApp button steps aside while the mobile menu is open. */
+html[data-menu-open] [data-whatsapp-button] {
+  display: none;
 }

@@ -31,6 +31,30 @@
   },
   "footer": {
     "statement": "Des maisons de montagne, faites pour durer.",
-    "parent": "Gestion de locations de vacances en Cerdagne"
+    "parent": "Gestion de locations de vacances en Cerdagne",
+    "contact": "Contact",
+    "zones": "Secteurs",
+    "services": "Services",
+    "legal": "Mentions",
+    "legalNotice": "Mentions légales",
+    "privacy": "Confidentialité",
+    "cookies": "Cookies"
+  },
+  "nav": {
+    "main": "Principale",
+    "skip": "Aller au contenu",
+    "menu": "Menu",
+    "close": "Fermer",
+    "projects": "Projets",
+    "services": "Services",
+    "method": "Méthode",
+    "zones": "Secteurs",
+    "journal": "Journal",
+    "contact": "Contact"
+  },
+  "notFound": {
+    "title": "Cette page n'existe pas.",
+    "text": "L'adresse a peut-être changé, ou le lien est incomplet.",
+    "back": "Retour à l'accueil"
   }
 }

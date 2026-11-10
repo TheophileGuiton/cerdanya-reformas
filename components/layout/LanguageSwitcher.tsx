@@ -7,7 +7,7 @@ import { routing } from "@/i18n/routing";
 
 // ES · CA · FR, always visible. Each link points to the same page in the
 // other language, using the localized pathname.
-export function LanguageSwitcher() {
+export function LanguageSwitcher({ onDark = false }: { onDark?: boolean }) {
   const t = useTranslations("lang");
   const active = useLocale();
   const pathname = usePathname();
@@ -27,8 +27,8 @@ export function LanguageSwitcher() {
           aria-current={locale === active ? "true" : undefined}
           className={
             locale === active
-              ? "bg-walnut px-2.5 py-2 text-note leading-none font-medium text-lime"
-              : "px-2.5 py-2 text-note leading-none font-medium text-bark hover:text-walnut"
+              ? `px-2.5 py-3.5 text-note lg:py-2 leading-none font-medium ${onDark ? "bg-lime text-walnut" : "bg-walnut text-lime"}`
+              : `px-2.5 py-3.5 text-note lg:py-2 leading-none font-medium ${onDark ? "text-fleece hover:text-lime" : "text-bark hover:text-walnut"}`
           }
         >
           {locale.toUpperCase()}
