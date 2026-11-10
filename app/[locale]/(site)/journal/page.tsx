@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { buildMetadata } from "@/lib/seo/metadata";
 import { getLocale, getTranslations } from "next-intl/server";
 import { ContactBand } from "@/components/sections/ContactBand";
 import { Link } from "@/i18n/navigation";
@@ -7,7 +8,11 @@ import { getPublishedArticles } from "@/lib/content/journal";
 
 export async function generateMetadata(): Promise<Metadata> {
   const t = await getTranslations("journal");
-  return { title: t("metaTitle"), description: t("metaDescription") };
+  return buildMetadata({
+    title: t("metaTitle"),
+    description: t("metaDescription"),
+    href: () => "/journal",
+  });
 }
 
 export default async function JournalPage() {

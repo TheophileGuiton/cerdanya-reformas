@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { buildMetadata } from "@/lib/seo/metadata";
 import { notFound } from "next/navigation";
 import { getLocale, getTranslations } from "next-intl/server";
 import { ContactBand } from "@/components/sections/ContactBand";
@@ -18,10 +19,11 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!article) return {};
   const t = await getTranslations("journal");
   const locale = (await getLocale()) as Locale;
-  return {
+  return buildMetadata({
     title: t("metaArticle", { title: article.title[locale] }),
     description: article.description[locale],
-  };
+    href: () => ({ pathname: "/journal/[slug]", params: { slug } }),
+  });
 }
 
 export default async function ArticlePage({ params }: Props) {

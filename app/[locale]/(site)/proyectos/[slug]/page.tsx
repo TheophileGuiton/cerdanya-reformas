@@ -1,6 +1,9 @@
 import type { Metadata } from "next";
+import { buildMetadata } from "@/lib/seo/metadata";
 import { notFound } from "next/navigation";
 import { getLocale, getTranslations } from "next-intl/server";
+import { JsonLd } from "@/components/JsonLd";
+import { breadcrumbJsonLd, projectJsonLd } from "@/lib/seo/jsonld";
 import { ProjectImage } from "@/components/ProjectImage";
 import { BeforeAfter } from "@/components/sections/BeforeAfter";
 import { ContactBand } from "@/components/sections/ContactBand";
@@ -27,12 +30,13 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!project) return {};
   const t = await getTranslations("projects");
   const locale = (await getLocale()) as Locale;
-  return {
+  return buildMetadata({
     title: t("metaTitle", { title: project.title[locale], town: project.town.name }),
     description: project.summary[locale],
+    href: () => ({ pathname: "/proyectos/[slug]", params: { slug } }),
     // Fictional placeholder projects stay out of search results.
-    robots: project.isConcept ? { index: false, follow: true } : undefined,
-  };
+    noindex: project.isConcept,
+  });
 }
 
 export default async function ProjectPage({ params }: Props) {
@@ -59,6 +63,17 @@ export default async function ProjectPage({ params }: Props) {
 
   return (
     <>
+      <JsonLd data={projectJsonLd(project, locale)} />
+      <JsonLd
+        data={breadcrumbJsonLd(
+          [
+            { name: "Cerdanya Reformes", href: "/" },
+            { name: t("back"), href: "/proyectos" },
+            { name: project.title[locale], href: { pathname: "/proyectos/[slug]", params: { slug } } },
+          ],
+          locale,
+        )}
+      />
       <article className="wrap pt-8 pb-section md:pt-12">
         <p className="mb-8 text-small">
           <Link href="/proyectos" className="text-bark underline underline-offset-4">

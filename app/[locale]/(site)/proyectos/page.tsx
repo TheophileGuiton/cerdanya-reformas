@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { buildMetadata } from "@/lib/seo/metadata";
 import { getTranslations } from "next-intl/server";
 import { Suspense } from "react";
 import { ContactBand } from "@/components/sections/ContactBand";
@@ -9,7 +10,11 @@ import { projectTypes } from "@/lib/content/schemas";
 
 export async function generateMetadata(): Promise<Metadata> {
   const t = await getTranslations("projects.index");
-  return { title: t("metaTitle"), description: t("metaDescription") };
+  return buildMetadata({
+    title: t("metaTitle"),
+    description: t("metaDescription"),
+    href: () => "/proyectos",
+  });
 }
 
 export default async function ProjectsPage() {

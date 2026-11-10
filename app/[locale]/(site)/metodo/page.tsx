@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { buildMetadata } from "@/lib/seo/metadata";
 import { getTranslations } from "next-intl/server";
 import { PendingNote } from "@/components/PendingNote";
 import { ContactBand } from "@/components/sections/ContactBand";
@@ -8,7 +9,11 @@ const remote = ["0", "1", "2"] as const;
 
 export async function generateMetadata(): Promise<Metadata> {
   const t = await getTranslations("method");
-  return { title: t("metaTitle"), description: t("metaDescription") };
+  return buildMetadata({
+    title: t("metaTitle"),
+    description: t("metaDescription"),
+    href: () => "/metodo",
+  });
 }
 
 export default async function MethodPage() {

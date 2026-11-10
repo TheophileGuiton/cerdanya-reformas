@@ -11,6 +11,7 @@ import { ConsentBanner } from "@/components/ConsentBanner";
 import { LenisProvider } from "@/components/motion/LenisProvider";
 import { WhatsAppButton } from "@/components/WhatsAppButton";
 import { routing } from "@/i18n/routing";
+import { siteUrl } from "@/lib/seo/site";
 import "../globals.css";
 
 const caslonDisplay = Libre_Caslon_Display({
@@ -41,9 +42,7 @@ export function generateStaticParams() {
 export async function generateMetadata(): Promise<Metadata> {
   const t = await getTranslations("meta");
   return {
-    metadataBase: new URL(
-      process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3000",
-    ),
+    metadataBase: new URL(siteUrl),
     title: t("title"),
     description: t("description"),
   };

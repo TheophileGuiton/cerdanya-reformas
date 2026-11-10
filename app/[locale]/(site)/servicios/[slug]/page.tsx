@@ -1,6 +1,9 @@
 import type { Metadata } from "next";
+import { buildMetadata } from "@/lib/seo/metadata";
 import { notFound } from "next/navigation";
 import { getLocale, getTranslations } from "next-intl/server";
+import { JsonLd } from "@/components/JsonLd";
+import { breadcrumbJsonLd, faqJsonLd, serviceJsonLd } from "@/lib/seo/jsonld";
 import { ContactBand } from "@/components/sections/ContactBand";
 import { ProjectCard } from "@/components/sections/ProjectCard";
 import { ServiceRows } from "@/components/sections/ServicesList";
@@ -28,7 +31,11 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!service) return {};
   const t = await getTranslations("servicesPage");
   const page = getServicePage(service.id, locale);
-  return { title: t("metaTitle", { title: page.h1 }), description: page.description };
+  return buildMetadata({
+    title: t("metaTitle", { title: page.h1 }),
+    description: page.description,
+    href: (l) => ({ pathname: "/servicios/[slug]", params: { slug: service.slug[l] } }),
+  });
 }
 
 export default async function ServicePage({ params }: Props) {
@@ -43,6 +50,18 @@ export default async function ServicePage({ params }: Props) {
 
   return (
     <>
+      <JsonLd data={serviceJsonLd(service, page, locale)} />
+      <JsonLd data={page.faq.length > 0 ? faqJsonLd(page.faq) : null} />
+      <JsonLd
+        data={breadcrumbJsonLd(
+          [
+            { name: "Cerdanya Reformes", href: "/" },
+            { name: t("back"), href: "/servicios" },
+            { name: service.title[locale], href: { pathname: "/servicios/[slug]", params: { slug } } },
+          ],
+          locale,
+        )}
+      />
       <article className="wrap pt-8 pb-section md:pt-12">
         <p className="mb-8 text-small">
           <Link href="/servicios" className="text-bark underline underline-offset-4">

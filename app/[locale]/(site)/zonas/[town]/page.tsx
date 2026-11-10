@@ -1,6 +1,9 @@
 import type { Metadata } from "next";
+import { buildMetadata } from "@/lib/seo/metadata";
 import { notFound } from "next/navigation";
 import { getLocale, getTranslations } from "next-intl/server";
+import { JsonLd } from "@/components/JsonLd";
+import { breadcrumbJsonLd } from "@/lib/seo/jsonld";
 import type { TownHref } from "@/components/layout/nav";
 import { ContactBand } from "@/components/sections/ContactBand";
 import { ProjectCard } from "@/components/sections/ProjectCard";
@@ -20,7 +23,11 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!getTown(slug)) return {};
   const t = await getTranslations("townPage");
   const page = getTownPage(slug, (await getLocale()) as Locale);
-  return { title: t("metaTitle", { title: page.h1 }), description: page.description };
+  return buildMetadata({
+    title: t("metaTitle", { title: page.h1 }),
+    description: page.description,
+    href: () => `/zonas/${slug}` as TownHref,
+  });
 }
 
 export default async function TownPage({ params }: Props) {
@@ -35,6 +42,15 @@ export default async function TownPage({ params }: Props) {
 
   return (
     <>
+      <JsonLd
+        data={breadcrumbJsonLd(
+          [
+            { name: "Cerdanya Reformes", href: "/" },
+            { name: page.h1, href: `/zonas/${slug}` as TownHref },
+          ],
+          locale,
+        )}
+      />
       <article className="wrap pt-10 pb-section md:pt-16">
         <div className="grid items-end gap-5 md:grid-cols-[7fr_5fr] md:gap-18">
           <h1 className="font-display text-display-xl">{page.h1}</h1>

@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { buildMetadata } from "@/lib/seo/metadata";
 import { getTranslations } from "next-intl/server";
 import { PendingNote } from "@/components/PendingNote";
 import { ContactBand } from "@/components/sections/ContactBand";
@@ -7,7 +8,11 @@ const parentUrl = process.env.NEXT_PUBLIC_PARENT_URL ?? "https://cerdanyaprive.c
 
 export async function generateMetadata(): Promise<Metadata> {
   const t = await getTranslations("about");
-  return { title: t("metaTitle"), description: t("metaDescription") };
+  return buildMetadata({
+    title: t("metaTitle"),
+    description: t("metaDescription"),
+    href: () => "/nosotros",
+  });
 }
 
 export default async function AboutPage() {

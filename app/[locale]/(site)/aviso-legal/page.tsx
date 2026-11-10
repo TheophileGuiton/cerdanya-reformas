@@ -1,14 +1,16 @@
 import type { Metadata } from "next";
+import { buildMetadata } from "@/lib/seo/metadata";
 import { getTranslations } from "next-intl/server";
 import { LegalPage } from "@/components/sections/LegalPage";
 
 export async function generateMetadata(): Promise<Metadata> {
   const t = await getTranslations("legal");
-  return {
+  return buildMetadata({
     title: t("metaTitle", { title: t("notice.title") }),
+    href: () => "/aviso-legal",
     // Drafts awaiting legal review are kept out of search results.
-    robots: { index: false, follow: true },
-  };
+    noindex: true,
+  });
 }
 
 export default function Page() {
