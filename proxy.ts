@@ -1,5 +1,6 @@
 import { NextResponse, type NextRequest } from "next/server";
 import createMiddleware from "next-intl/middleware";
+import { articles } from "./content/journal";
 import { projects } from "./content/projects";
 import { servicesData } from "./content/services.data";
 import { routing } from "./i18n/routing";
@@ -11,6 +12,8 @@ const handleI18n = createMiddleware(routing);
 const projectSlugs = new Set(projects.map((project) => project.slug));
 const projectPath = /^\/(es|ca|fr)\/(?:proyectos|projectes|projets)\/([^/]+)\/?$/;
 
+const articleSlugs = new Set(articles.filter((a) => !a.draft).map((a) => a.slug));
+const articlePath = /^\/(es|ca|fr)\/journal\/([^/]+)\/?$/;
 const servicePath = /^\/(es|ca|fr)\/(?:servicios|serveis|services)\/([^/]+)\/?$/;
 
 export default function proxy(request: NextRequest) {
@@ -21,6 +24,10 @@ export default function proxy(request: NextRequest) {
   const project = projectPath.exec(pathname);
   if (project && !projectSlugs.has(project[2])) {
     return NextResponse.rewrite(new URL(`/${project[1]}/404`, request.url));
+  }
+  const article = articlePath.exec(pathname);
+  if (article && !articleSlugs.has(article[2])) {
+    return NextResponse.rewrite(new URL(`/${article[1]}/404`, request.url));
   }
   const service = servicePath.exec(pathname);
   if (service) {

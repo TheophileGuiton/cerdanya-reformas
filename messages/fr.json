@@ -389,5 +389,101 @@
     "accept": "Accepter",
     "reject": "Refuser",
     "more": "Politique de cookies"
+  },
+  "journal": {
+    "title": "Journal : rénover en Cerdagne",
+    "intro": "Notes pratiques pour rénover et entretenir une maison de montagne.",
+    "metaTitle": "Journal : rénover une maison en Cerdagne | Cerdanya Reformes",
+    "metaDescription": "Articles pratiques sur la rénovation en Cerdagne : saisons de chantier, chauffage en montagne et rénover une maison pour la louer.",
+    "back": "Tous les articles",
+    "published": "Publié le {date}",
+    "metaArticle": "{title} | Cerdanya Reformes"
+  },
+  "legal": {
+    "pending": "Brouillon en attente de relecture juridique. Il manque les données de l'entité (dénomination, numéro d'identification, siège et registre) et la validation d'un conseil avant le lancement.",
+    "metaTitle": "{title} | Cerdanya Reformes",
+    "notice": {
+      "title": "Mentions légales",
+      "sections": {
+        "0": {
+          "title": "Éditeur du site",
+          "text": "Ce site appartient à Cerdanya Reformes, marque de Cerdanya Privé. Les données d'identification de l'entité seront ajoutées ici avant le lancement."
+        },
+        "1": {
+          "title": "Contact",
+          "text": "Téléphone et WhatsApp : +34 625 01 43 88."
+        },
+        "2": {
+          "title": "Projets et images",
+          "text": "Les projets présentés actuellement sont conceptuels et leurs images sont générées par intelligence artificielle. Ils ne représentent ni des maisons ni des clients réels, ce qui est indiqué sur chacun."
+        },
+        "3": {
+          "title": "Propriété intellectuelle",
+          "text": "Les textes, le design et les images du site appartiennent à son éditeur. Ils ne peuvent pas être réutilisés sans autorisation."
+        },
+        "4": {
+          "title": "Responsabilité",
+          "text": "Les informations du site sont indicatives et ne constituent ni une offre ni un devis. Chaque rénovation fait l'objet d'un projet et d'un devis propres."
+        }
+      }
+    },
+    "privacy": {
+      "title": "Politique de confidentialité",
+      "sections": {
+        "0": {
+          "title": "Responsable",
+          "text": "Cerdanya Reformes, marque de Cerdanya Privé. Les données de l'entité responsable seront ajoutées ici avant le lancement."
+        },
+        "1": {
+          "title": "Données traitées",
+          "text": "Celles que vous nous envoyez par le formulaire : nom, e-mail, téléphone, informations sur le bien et le projet, et votre message. S'y ajoutent la langue, la page depuis laquelle vous écrivez et, si vous venez d'une annonce, les paramètres de la campagne."
+        },
+        "2": {
+          "title": "Finalité",
+          "text": "Répondre à votre demande et préparer une première visite. Nous n'envoyons pas de lettre d'information."
+        },
+        "3": {
+          "title": "Base légale",
+          "text": "Votre consentement, donné en cochant la case du formulaire, et que vous pouvez retirer à tout moment."
+        },
+        "4": {
+          "title": "Destinataires",
+          "text": "Notre équipe et les prestataires qui font fonctionner le site : hébergement, envoi d'e-mails et protection contre les envois automatiques. Si vous indiquez un intérêt pour la gestion locative, nous partageons votre demande avec Cerdanya Privé."
+        },
+        "5": {
+          "title": "Durée",
+          "text": "La durée de conservation sera indiquée ici avant le lancement."
+        },
+        "6": {
+          "title": "Vos droits",
+          "text": "Vous pouvez demander l'accès, la rectification, l'effacement, la limitation, l'opposition et la portabilité de vos données, et saisir l'autorité de protection des données compétente."
+        }
+      }
+    },
+    "cookies": {
+      "title": "Politique de cookies",
+      "sections": {
+        "0": {
+          "title": "Sans votre accord, presque rien",
+          "text": "Le site fonctionne sans cookies de mesure ni de publicité. Nous utilisons seulement un cookie technique pour retenir la langue choisie."
+        },
+        "1": {
+          "title": "Votre choix sur la mesure",
+          "text": "Si la mesure est active, nous vous posons la question une fois. Votre réponse est conservée dans votre navigateur et n'est envoyée à personne."
+        },
+        "2": {
+          "title": "Si vous acceptez",
+          "text": "Google Analytics et, le cas échéant, la mesure des conversions Google Ads sont chargés ; ils déposent des cookies comme _ga pour compter les visites et les demandes."
+        },
+        "3": {
+          "title": "Changer d'avis",
+          "text": "Effacez les données de ce site dans votre navigateur et la question réapparaîtra."
+        },
+        "4": {
+          "title": "Formulaire",
+          "text": "Pour protéger le formulaire contre les envois automatiques, Cloudflare Turnstile peut être utilisé ; il ne nécessite pas de cookies publicitaires."
+        }
+      }
+    }
   }
 }

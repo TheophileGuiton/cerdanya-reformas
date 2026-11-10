@@ -389,5 +389,101 @@
     "accept": "Acceptar",
     "reject": "Rebutjar",
     "more": "Política de galetes"
+  },
+  "journal": {
+    "title": "Journal: reformar a la Cerdanya",
+    "intro": "Notes pràctiques sobre reformar i mantenir una casa de muntanya.",
+    "metaTitle": "Journal: reformar una casa a la Cerdanya | Cerdanya Reformes",
+    "metaDescription": "Articles pràctics sobre reformes a la Cerdanya: èpoques d'obra, calefacció a muntanya i com reformar una casa per llogar-la.",
+    "back": "Tots els articles",
+    "published": "Publicat el {date}",
+    "metaArticle": "{title} | Cerdanya Reformes"
+  },
+  "legal": {
+    "pending": "Esborrany pendent de revisió legal. Falten les dades de l'entitat titular (denominació, NIF, domicili i registre) i la validació d'un assessor abans del llançament.",
+    "metaTitle": "{title} | Cerdanya Reformes",
+    "notice": {
+      "title": "Avís legal",
+      "sections": {
+        "0": {
+          "title": "Titular del lloc",
+          "text": "Aquest lloc pertany a Cerdanya Reformes, marca de Cerdanya Privé. Les dades identificatives de l'entitat titular s'hi afegiran abans del llançament."
+        },
+        "1": {
+          "title": "Contacte",
+          "text": "Telèfon i WhatsApp: +34 625 01 43 88."
+        },
+        "2": {
+          "title": "Projectes i imatges",
+          "text": "Els projectes que es mostren actualment són conceptuals i les seves imatges estan generades amb intel·ligència artificial. No representen cases ni clients reals i així s'indica en cadascun."
+        },
+        "3": {
+          "title": "Propietat intel·lectual",
+          "text": "Els textos, el disseny i les imatges del lloc pertanyen al seu titular. No es poden reutilitzar sense permís."
+        },
+        "4": {
+          "title": "Responsabilitat",
+          "text": "La informació del lloc és orientativa i no constitueix cap oferta ni pressupost. Cada reforma es defineix en un projecte i un pressupost propis."
+        }
+      }
+    },
+    "privacy": {
+      "title": "Política de privacitat",
+      "sections": {
+        "0": {
+          "title": "Responsable",
+          "text": "Cerdanya Reformes, marca de Cerdanya Privé. Les dades de l'entitat responsable s'hi afegiran abans del llançament."
+        },
+        "1": {
+          "title": "Quines dades tractem",
+          "text": "Les que ens envieu pel formulari: nom, correu, telèfon, dades de l'habitatge i del projecte, i el vostre missatge. Amb elles es desen l'idioma, la pàgina des d'on escriviu i, si heu arribat des d'un anunci, els paràmetres de la campanya."
+        },
+        "2": {
+          "title": "Per a què",
+          "text": "Per respondre a la vostra sol·licitud i preparar una primera visita. No enviem butlletins."
+        },
+        "3": {
+          "title": "Base legal",
+          "text": "El vostre consentiment, que doneu en marcar la casella del formulari i que podeu retirar quan vulgueu."
+        },
+        "4": {
+          "title": "Qui hi accedeix",
+          "text": "El nostre equip i els proveïdors que fan funcionar el lloc: allotjament web, enviament de correu i protecció contra enviaments automàtics. Si indiqueu interès en la gestió del lloguer, compartim la sol·licitud amb Cerdanya Privé."
+        },
+        "5": {
+          "title": "Quant de temps",
+          "text": "El termini de conservació s'indicarà aquí abans del llançament."
+        },
+        "6": {
+          "title": "Els vostres drets",
+          "text": "Podeu demanar accés, rectificació, supressió, limitació, oposició i portabilitat de les vostres dades, i reclamar davant l'Agència Espanyola de Protecció de Dades."
+        }
+      }
+    },
+    "cookies": {
+      "title": "Política de galetes",
+      "sections": {
+        "0": {
+          "title": "Sense el vostre permís, gairebé res",
+          "text": "El lloc funciona sense galetes de mesura ni de publicitat. Només fem servir una galeta tècnica per recordar l'idioma triat."
+        },
+        "1": {
+          "title": "La vostra tria sobre la mesura",
+          "text": "Si la mesura està activa, us ho preguntem una vegada. La resposta es desa al vostre navegador i no s'envia a ningú."
+        },
+        "2": {
+          "title": "Si accepteu",
+          "text": "Es carreguen Google Analytics i, si escau, la mesura de conversions de Google Ads, que desen galetes com _ga per comptar visites i sol·licituds."
+        },
+        "3": {
+          "title": "Com canviar d'opinió",
+          "text": "Esborreu les dades d'aquest lloc al navegador i la pregunta tornarà a aparèixer."
+        },
+        "4": {
+          "title": "Formulari",
+          "text": "Per protegir el formulari contra enviaments automàtics es pot fer servir Cloudflare Turnstile, que no requereix galetes de publicitat."
+        }
+      }
+    }
   }
 }

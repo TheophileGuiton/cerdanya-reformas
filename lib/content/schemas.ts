@@ -101,3 +101,15 @@ export const townPageSchema = z.object({
 });
 
 export type TownPage = z.infer<typeof townPageSchema>;
+
+export const articleSchema = z.object({
+  slug,
+  /** ISO date of publication. */
+  date: z.string().regex(/^\d{4}-\d{2}-\d{2}$/),
+  /** Drafts have no page and are excluded from listings and the sitemap. */
+  draft: z.boolean(),
+  title: localized,
+  description: localized,
+});
+
+export type Article = z.infer<typeof articleSchema>;

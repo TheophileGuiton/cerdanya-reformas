@@ -57,6 +57,17 @@ console.log(`Content check: ${slugs.length} projects valid in ${locales.join("/"
 if (missingImages > 0) {
   console.warn(`  ${missingImages} project images are not generated yet (placeholders will render).`);
 }
+const { articlesData: articles } = await import(
+  pathToFileURL(path.join(process.cwd(), "content", "journal", "articles.data.ts")).href
+);
+const drafts = articles.filter((article) => article.draft);
+if (drafts.length > 0) {
+  console.warn(
+    `\nJournal: ${drafts.length} draft articles are not published:\n${drafts
+      .map((article) => `  - ${article.slug}: ${article.description.es}`)
+      .join("\n")}`,
+  );
+}
 if (concepts.length > 0) {
   console.warn(
     `\nWARNING: ${concepts.length} concept projects are still live. Replace them before launch:\n${concepts

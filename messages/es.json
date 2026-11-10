@@ -389,5 +389,101 @@
     "accept": "Aceptar",
     "reject": "Rechazar",
     "more": "Política de cookies"
+  },
+  "journal": {
+    "title": "Journal: reformar en la Cerdanya",
+    "intro": "Notas prácticas sobre reformar y mantener una casa de montaña.",
+    "metaTitle": "Journal: reformar una casa en la Cerdanya | Cerdanya Reformes",
+    "metaDescription": "Artículos prácticos sobre reformas en la Cerdanya: épocas de obra, calefacción en montaña y cómo reformar una casa para alquilarla.",
+    "back": "Todos los artículos",
+    "published": "Publicado el {date}",
+    "metaArticle": "{title} | Cerdanya Reformes"
+  },
+  "legal": {
+    "pending": "Borrador pendiente de revisión legal. Faltan los datos de la entidad titular (denominación, NIF, domicilio y registro) y la validación de un asesor antes del lanzamiento.",
+    "metaTitle": "{title} | Cerdanya Reformes",
+    "notice": {
+      "title": "Aviso legal",
+      "sections": {
+        "0": {
+          "title": "Titular del sitio",
+          "text": "Este sitio pertenece a Cerdanya Reformes, marca de Cerdanya Privé. Los datos identificativos de la entidad titular se añadirán aquí antes del lanzamiento."
+        },
+        "1": {
+          "title": "Contacto",
+          "text": "Teléfono y WhatsApp: +34 625 01 43 88."
+        },
+        "2": {
+          "title": "Proyectos e imágenes",
+          "text": "Los proyectos que se muestran actualmente son conceptuales y sus imágenes están generadas con inteligencia artificial. No representan casas ni clientes reales y así se indica en cada uno."
+        },
+        "3": {
+          "title": "Propiedad intelectual",
+          "text": "Los textos, el diseño y las imágenes del sitio pertenecen a su titular. No pueden reutilizarse sin permiso."
+        },
+        "4": {
+          "title": "Responsabilidad",
+          "text": "La información del sitio es orientativa y no constituye una oferta ni un presupuesto. Cada reforma se define en un proyecto y un presupuesto propios."
+        }
+      }
+    },
+    "privacy": {
+      "title": "Política de privacidad",
+      "sections": {
+        "0": {
+          "title": "Responsable",
+          "text": "Cerdanya Reformes, marca de Cerdanya Privé. Los datos de la entidad responsable se añadirán aquí antes del lanzamiento."
+        },
+        "1": {
+          "title": "Qué datos tratamos",
+          "text": "Los que usted nos envía por el formulario: nombre, email, teléfono, datos de la vivienda y del proyecto, y su mensaje. Junto a ellos se guardan el idioma, la página desde la que escribe y, si llegó desde un anuncio, los parámetros de la campaña."
+        },
+        "2": {
+          "title": "Para qué",
+          "text": "Para responder a su solicitud y preparar una primera visita. No enviamos boletines."
+        },
+        "3": {
+          "title": "Base legal",
+          "text": "Su consentimiento, que da al marcar la casilla del formulario y que puede retirar cuando quiera."
+        },
+        "4": {
+          "title": "Quién accede",
+          "text": "Nuestro equipo y los proveedores que hacen funcionar el sitio: alojamiento web, envío de correo y protección contra envíos automáticos. Si indica interés en la gestión del alquiler, compartimos su solicitud con Cerdanya Privé."
+        },
+        "5": {
+          "title": "Cuánto tiempo",
+          "text": "El plazo de conservación se indicará aquí antes del lanzamiento."
+        },
+        "6": {
+          "title": "Sus derechos",
+          "text": "Puede pedir acceso, rectificación, supresión, limitación, oposición y portabilidad de sus datos, y reclamar ante la Agencia Española de Protección de Datos."
+        }
+      }
+    },
+    "cookies": {
+      "title": "Política de cookies",
+      "sections": {
+        "0": {
+          "title": "Sin su permiso, casi nada",
+          "text": "El sitio funciona sin cookies de medición ni de publicidad. Solo usamos una cookie técnica para recordar el idioma elegido."
+        },
+        "1": {
+          "title": "Su elección sobre la medición",
+          "text": "Si la medición está activa, le preguntamos una vez. Su respuesta se guarda en su navegador y no se envía a nadie."
+        },
+        "2": {
+          "title": "Si acepta",
+          "text": "Se cargan Google Analytics y, en su caso, la medición de conversiones de Google Ads, que guardan cookies como _ga para contar visitas y solicitudes."
+        },
+        "3": {
+          "title": "Cómo cambiar de opinión",
+          "text": "Borre los datos de este sitio en su navegador y la pregunta volverá a aparecer."
+        },
+        "4": {
+          "title": "Formulario",
+          "text": "Para proteger el formulario contra envíos automáticos puede usarse Cloudflare Turnstile, que no requiere cookies de publicidad."
+        }
+      }
+    }
   }
 }
