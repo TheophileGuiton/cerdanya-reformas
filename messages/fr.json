@@ -198,5 +198,20 @@
     "next": "Projet suivant",
     "conceptNote": "Projet conceptuel. La maison n'existe pas et les images sont générées par IA : il montre notre façon de travailler.",
     "metaTitle": "{title}, {town} | Cerdanya Reformes"
+  },
+  "servicesPage": {
+    "index": {
+      "title": "Services de rénovation et d'architecture d'intérieur en Cerdagne",
+      "intro": "Vous pouvez nous confier une pièce ou la maison entière. Dans tous les cas, un seul interlocuteur et un compte rendu chaque semaine.",
+      "metaTitle": "Services de rénovation en Cerdagne | Cerdanya Reformes",
+      "metaDescription": "Architecture d'intérieur, cuisines et salles de bains, rénovation complète, maisons en pierre, bien-être, efficacité énergétique, domotique et clé en main en Cerdagne."
+    },
+    "back": "Tous les services",
+    "includes": "Ce qui est compris",
+    "approach": "Notre façon de faire",
+    "faq": "Questions fréquentes",
+    "related": "Projets liés",
+    "others": "Autres services",
+    "metaTitle": "{title} | Cerdanya Reformes"
   }
 }

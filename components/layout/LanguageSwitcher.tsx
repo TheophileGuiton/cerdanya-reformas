@@ -3,7 +3,8 @@
 import { useLocale, useTranslations } from "next-intl";
 import { useParams } from "next/navigation";
 import { Link, usePathname } from "@/i18n/navigation";
-import { routing } from "@/i18n/routing";
+import { servicesData } from "@/content/services.data";
+import { routing, type Locale } from "@/i18n/routing";
 
 // ES · CA · FR, always visible. Each link points to the same page in the
 // other language, using the localized pathname.
@@ -13,13 +14,20 @@ export function LanguageSwitcher({ onDark = false }: { onDark?: boolean }) {
   const pathname = usePathname();
   const params = useParams();
 
+  // Service slugs are translated: find the same service in the target language.
+  function paramsFor(locale: Locale) {
+    if (pathname !== "/servicios/[slug]") return params;
+    const service = servicesData.find((item) => item.slug[active] === params.slug);
+    return service ? { ...params, slug: service.slug[locale] } : params;
+  }
+
   return (
     <nav aria-label={t("label")} className="flex gap-0.5">
       {routing.locales.map((locale) => (
         <Link
           key={locale}
           // @ts-expect-error -- pathname and params always belong together here
-          href={{ pathname, params }}
+          href={{ pathname, params: paramsFor(locale) }}
           locale={locale}
           hrefLang={locale}
           lang={locale}

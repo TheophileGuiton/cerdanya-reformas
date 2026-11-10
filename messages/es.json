@@ -198,5 +198,20 @@
     "next": "Siguiente proyecto",
     "conceptNote": "Proyecto conceptual. La casa no existe y las imágenes están generadas con IA: muestra cómo trabajamos.",
     "metaTitle": "{title}, {town} | Cerdanya Reformes"
+  },
+  "servicesPage": {
+    "index": {
+      "title": "Servicios de reforma e interiorismo en la Cerdanya",
+      "intro": "Puede encargarnos una estancia o la casa entera. En todos los casos hay un solo interlocutor y un informe cada semana.",
+      "metaTitle": "Servicios de reforma e interiorismo en la Cerdanya | Cerdanya Reformes",
+      "metaDescription": "Interiorismo, cocinas y baños, reforma integral, casas de piedra, wellness, eficiencia, domótica y llave en mano en la Cerdanya."
+    },
+    "back": "Todos los servicios",
+    "includes": "Qué incluye",
+    "approach": "Cómo lo hacemos",
+    "faq": "Preguntas frecuentes",
+    "related": "Proyectos relacionados",
+    "others": "Otros servicios",
+    "metaTitle": "{title} | Cerdanya Reformes"
   }
 }

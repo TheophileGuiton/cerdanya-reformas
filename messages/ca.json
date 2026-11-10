@@ -198,5 +198,20 @@
     "next": "Projecte següent",
     "conceptNote": "Projecte conceptual. La casa no existeix i les imatges estan generades amb IA: mostra com treballem.",
     "metaTitle": "{title}, {town} | Cerdanya Reformes"
+  },
+  "servicesPage": {
+    "index": {
+      "title": "Serveis de reforma i interiorisme a la Cerdanya",
+      "intro": "Ens podeu encarregar una estança o la casa sencera. En tots els casos hi ha un sol interlocutor i un informe cada setmana.",
+      "metaTitle": "Serveis de reforma i interiorisme a la Cerdanya | Cerdanya Reformes",
+      "metaDescription": "Interiorisme, cuines i banys, reforma integral, cases de pedra, wellness, eficiència, domòtica i clau en mà a la Cerdanya."
+    },
+    "back": "Tots els serveis",
+    "includes": "Què inclou",
+    "approach": "Com ho fem",
+    "faq": "Preguntes freqüents",
+    "related": "Projectes relacionats",
+    "others": "Altres serveis",
+    "metaTitle": "{title} | Cerdanya Reformes"
   }
 }

@@ -74,3 +74,17 @@ export const townSchema = z.object({
 });
 
 export type Town = z.infer<typeof townSchema>;
+
+export const servicePageSchema = z.object({
+  /** Page heading, carrying the service's main keyword. */
+  h1: z.string().min(1),
+  /** Meta description, 140–160 characters where possible. */
+  description: z.string().min(1),
+  intro: z.string().min(1),
+  includes: z.array(z.object({ title: z.string().min(1), text: z.string().min(1) })).min(1),
+  approach: z.string().min(1),
+  /** Shown on the page as written. Empty when there are no real questions. */
+  faq: z.array(z.object({ q: z.string().min(1), a: z.string().min(1) })),
+});
+
+export type ServicePage = z.infer<typeof servicePageSchema>;
