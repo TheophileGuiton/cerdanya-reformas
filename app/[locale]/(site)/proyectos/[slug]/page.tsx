@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { Reveal } from "@/components/motion/Reveal";
 import { buildMetadata } from "@/lib/seo/metadata";
 import { notFound } from "next/navigation";
 import { getLocale, getTranslations } from "next-intl/server";
@@ -130,6 +131,7 @@ export default async function ProjectPage({ params }: Props) {
           <ul className="mt-16 grid items-end gap-6 sm:grid-cols-2">
             {gallery.map((image, index) => (
               <li key={image.name}>
+                <Reveal>
                 <ProjectImage
                   slug={project.slug}
                   name={image.name}
@@ -138,6 +140,7 @@ export default async function ProjectPage({ params }: Props) {
                   sizes="(min-width: 640px) 46vw, calc(100vw - 2.5rem)"
                   className={`${aspectOf(image)} w-full`}
                 />
+                </Reveal>
                 <p className="pt-2.5 text-note font-medium text-bark">{image.alt[locale]}</p>
               </li>
             ))}

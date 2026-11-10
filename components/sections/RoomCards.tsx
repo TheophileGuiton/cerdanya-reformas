@@ -1,4 +1,5 @@
 import { getTranslations } from "next-intl/server";
+import { Reveal } from "@/components/motion/Reveal";
 import { ProjectImage } from "@/components/ProjectImage";
 import { Link } from "@/i18n/navigation";
 import { SectionHead } from "./SectionHead";
@@ -27,7 +28,7 @@ export async function RoomCards() {
               href={{ pathname: "/proyectos/[slug]", params: { slug: room.slug } }}
               className="group block no-underline"
             >
-              <div className="overflow-hidden">
+              <Reveal className="overflow-hidden">
                 <ProjectImage
                   slug={room.slug}
                   name={room.image}
@@ -36,7 +37,7 @@ export async function RoomCards() {
                   sizes="(min-width: 768px) 40vw, calc(100vw - 2.5rem)"
                   className={`${room.ratio} w-full transition-transform duration-(--dur-base) ease-out group-hover:scale-[1.03]`}
                 />
-              </div>
+              </Reveal>
               <h3 className="mt-4 font-display text-display-m">
                 {t(`home.rooms.items.${room.key}.title`)}
               </h3>
